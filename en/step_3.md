@@ -47,7 +47,7 @@ switch costume to [Crystal-a v]
 wait (2) seconds
 switch costume to [gift-a v]
 + wait (1) seconds
-+ broadcast [move v]
++ broadcast [move v] and wait
 ``` 
 
 --- /task ---
