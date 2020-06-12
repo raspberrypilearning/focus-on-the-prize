@@ -18,7 +18,7 @@ switch costume to [Crystal-a]
 
 --- task ---
 
-The **Gift2** sprite should `say No1`{:class="block3looks"} and then `hide`{:class="block3looks"}
+The **Gift2** sprite should `say No!`{:class="block3looks"} and then `hide`{:class="block3looks"}
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -62,14 +62,14 @@ You may notice, that you can actually click on the boxes while they are moving a
 
 --- task ---
 
-Create a new variable called `finished`{:class="block3variabels"}. This can be set to `false`{:class="block3variables"} wwhen the gifts start moving, and then `true`{:class="block3variables"} when the gifts stop moving.
+Create a new variable called `finished`{:class="block3variables"}. This can be set to `false`{:class="block3variables"} when the gifts start moving, and then `true`{:class="block3variables"} when the gifts stop moving.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
 set [speed v] to (1)
-+ set [finished v] to (false)
++ set [finished v] to [false]
 go to x: (150) y: (0)
 switch costume to [gift-a v]
 wait (1) seconds
@@ -78,7 +78,7 @@ wait (2) seconds
 switch costume to [gift-a v]
 wait (1) seconds
 broadcast [move v] and wait
-+ set [finished v] to (true)
++ set [finished v] to [true]
 ``` 
 
 --- /task ---
@@ -91,7 +91,7 @@ Now an `if`{:class="block3control"} block can be used to test if `finished`{:cla
 
 ```blocks3
 when this sprite clicked
-+ if ((finished) = [true])
++ if <(finished) = [true]> then
 say [Yes!]
 switch costume to [Crystal-a]
 ```
@@ -106,7 +106,7 @@ Add the same `if`{:class="block3control"} condition to the **Gift2** sprite.
 
 ```blocks3
 when this sprite clicked
-+ if ((finished) = [true])
++ if <(finished) = [true]> then
 say [No!] for (1) seconds
 hide
 ```
