@@ -8,7 +8,7 @@ On the **Gift** sprite, add code so that `when this sprite clicked`{:class="bloc
 
 ![image of gift sprite](images/gift-sprite.png)
 
-```blocks
+```blocks3
 when this sprite clicked
 say [Yes!]
 switch costume to [Crystal-a]
@@ -22,7 +22,7 @@ The **Gift2** sprite should `say No1`{:class="block3looks"} and then `hide`{:cla
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
-```blocks
+```blocks3
 when this sprite clicked
 say [No!] for (1) seconds
 hide
@@ -89,7 +89,7 @@ Now an `if`{:class="block3control"} block can be used to test if `finished`{:cla
 
 ![image of gift sprite](images/gift-sprite.png)
 
-```blocks
+```blocks3
 when this sprite clicked
 + if ((finished) = [true])
 say [Yes!]
@@ -104,7 +104,7 @@ Add the same `if`{:class="block3control"} condition to the **Gift2** sprite.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
-```blocks
+```blocks3
 when this sprite clicked
 + if ((finished) = [true])
 say [No!] for (1) seconds
