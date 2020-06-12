@@ -58,6 +58,8 @@ Choose the gift that you would like to be inside the gift box. In this example, 
 
 Back on the code tab, add some blocks to make the starting costume for the sprite **gift-a** then switch to **Crystal-a** and then back to **gift-a**, with wait blocks inbetween.
 
+![image of the gift sprite](images/gift-sprite.png)
+
 ```blocks3
 when flag clicked
 switch costume to [gift-a v]
@@ -65,7 +67,7 @@ wait (1) seconds
 switch costume to [Crystal-a v]
 wait (2) seconds
 switch costume to [gift-a v]
-```
+``` 
 
 --- /task ---
 
