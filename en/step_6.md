@@ -26,7 +26,7 @@ glide (speed) secs to [random position v]
 
 Add in a `touching color`{:class="block3sensing"} block, and use the color picker to select the color of the ribbon.
 
-![animated gif showing the colour picker being used to select the colour of the gift ribbon)(images/color-picker.gif)
+![animated gif showing the colour picker being used to select the colour of the gift ribbon](images/color-picker.gif)
 
 ![image of gift sprite](images/gift-sprite.png)
 ![image of gift2 sprite](images/gift2-sprite.png)
