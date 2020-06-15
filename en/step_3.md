@@ -20,13 +20,13 @@ switch costume to [gift-a v]
 
 --- /task ---
 
-Broadcasts are messages that are sent by a sprite, that all sprites will recieve. They are very useful for making sure that events in your program all happen at the same time. You can find the `broadcast`{:class="block3events"} blocks in the `events`{:class="block3events"} menu.
+Broadcasts are messages that are sent by a sprite, that all sprites will receive. They are very useful for making sure that events in your program all happen at the same time. You can find the `broadcast`{:class="block3events"} blocks in the `events`{:class="block3events"} menu.
 
 --- task ---
 
 Create a new `broadcast`{:class="block3events"} to start moving. Call your new broadcast `move`{:class="block3events"}
 
-![image showwing broadcast block with the name options expanded](images/broadcast.png)
+![image showing broadcast block with the name options expanded](images/broadcast.png)
 
 ![image showing the dialogue box for creating a new broadcast, with the name "move" typed in](images/new-message.png)
 

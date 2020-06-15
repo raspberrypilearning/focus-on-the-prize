@@ -56,7 +56,7 @@ You may notice, that you can actually click on the boxes while they are moving a
 
 --- no-print ---
 
-![animated gif showing the gifts being clicked on before they have finsihed moving](images/cheat.gif)_
+![animated gif showing the gifts being clicked on before they have finished moving](images/cheat.gif)_
 
 --- /no-print ---
 

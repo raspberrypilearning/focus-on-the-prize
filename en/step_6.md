@@ -65,7 +65,7 @@ repeat until <not <touching color (#F9C780) ?>>
 
 --- task ---
 
-Click the green flag a feww times to make sure that the boxes always move to an empty area of the stage, before they stop moving.
+Click the green flag a few times to make sure that the boxes always move to an empty area of the stage, before they stop moving.
 
 --- /task ---
 

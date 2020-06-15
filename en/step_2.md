@@ -14,7 +14,7 @@ Delete the Scratch cat sprite, by clicking on the trashcan icon in the corner.
 
 Use the **Choose a Sprite** icon, to search for a new sprite to add to your game.
 
-![image showwing the choose sprite icon with expanded options](images/choose-sprite.png)
+![image showing the choose sprite icon with expanded options](images/choose-sprite.png)
 
 --- /task ---
 
@@ -30,7 +30,7 @@ Search for the **Gift** sprite, and then add it to your game.
 
 The sprite is a little small at the moment, so increase the size of the sprite to **150%**
 
-![image showing properites for the sprite with the size set to 150 percent](images/set-size.png)
+![image showing properties for the sprite with the size set to 150 percent](images/set-size.png)
 
 --- /task ---
 
@@ -56,7 +56,7 @@ Choose the gift that you would like to be inside the gift box. In this example, 
 
 --- task ---
 
-Back on the code tab, add some blocks to make the starting costume for the sprite **gift-a** then switch to **Crystal-a** and then back to **gift-a**, with wait blocks inbetween.
+Back on the code tab, add some blocks to make the starting costume for the sprite **gift-a** then switch to **Crystal-a** and then back to **gift-a**, with wait blocks in between.
 
 ![image of the gift sprite](images/gift-sprite.png)
 

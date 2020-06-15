@@ -41,7 +41,7 @@ glide (1) secs to [random position v]
 
 --- task ---
 
-Click the green flag to watch the twwo sprites move around the screen.
+Click the green flag to watch the two sprites move around the screen.
 
 --- no-print ---
 
