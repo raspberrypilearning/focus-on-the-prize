@@ -48,7 +48,7 @@ Then use the **Choose a Costume** icon to add a new costume to the sprite.
 
 --- task ---
 
-Choose the gift that you would like to be inside the gift box. In this example, the **Crystal-a** costume will be used.\
+Choose the gift that you would like to be inside the gift box. In this example, the **Crystal-a** costume will be used.
 
 ![image showing the search for a crystal costume, with Crystal-a and Crystal-b shown](images/choose-crystal-costume.png)
 
