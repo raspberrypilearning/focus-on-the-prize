@@ -38,7 +38,7 @@ when flag clicked
 hide
 go to [front v] layer
 wait (4) seconds
-+ repeat until <(finished) = (true)>
++ repeat until <(finished) = [true]>
 wait (pick random (1) to (5)) seconds
 go to x: (-280) y: (-140)
 show
