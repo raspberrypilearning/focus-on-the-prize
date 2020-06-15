@@ -7,6 +7,7 @@ Think about some of the things you have learned in previous scratch projects tha
 --- no-print ---
 
 <div class="scratch-preview">
-<iframe src="https://scratch.mit.edu/projects/405012395/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<iframe src="https://scratch.mit.edu/projects/405012286/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div>
 
 --- /no-print ---
