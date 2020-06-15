@@ -26,7 +26,11 @@ glide (speed) secs to [random position v]
 
 Add in a `touching color`{:class="block3sensing"} block, and use the color picker to select the color of the ribbon.
 
+--- no-print ---
+
 ![animated gif showing the colour picker being used to select the colour of the gift ribbon](images/color-picker.gif)
+
+--- /no-print ---
 
 ![image of gift sprite](images/gift-sprite.png)
 ![image of gift2 sprite](images/gift2-sprite.png)
@@ -35,6 +39,7 @@ Add in a `touching color`{:class="block3sensing"} block, and use the color picke
 when I receive [move v]
 repeat (10)
 glide (speed) secs to [random position v]
+end
 + repeat until <not <touching color (#F9C780)>>
 ```
 
@@ -51,6 +56,7 @@ Within the `repeat until`{:class="block3control"} block, add in another block to
 when I receive [move v]
 repeat (10)
 glide (speed) secs to [random position v]
+end
 repeat until <not <touching color (#F9C780) ?>>
 + glide (speed) secs to [random position v]
 ```
@@ -76,6 +82,7 @@ Add in a `and`{:class="block3operators"} into the `repeat until`{:class="block3c
 when I receive [move v]
 repeat (10)
 glide (speed) secs to [random position v]
+end
 + repeat until < <not <touching color (#F9C780) ?>> and <not <touching [edge v] ?>>
 glide (speed) secs to [random position v]
 ```

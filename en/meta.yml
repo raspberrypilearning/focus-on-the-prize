@@ -13,3 +13,7 @@ steps:
   - title: "Did you get it right?"
   - title: More gifts  
   - title: Add a distraction
+  - title: "Challenge: More distractions!"
+    challenge: true
+  - title: Demonstrate your project
+  - title: "What next?"
