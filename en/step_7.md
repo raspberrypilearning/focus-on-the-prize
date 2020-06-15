@@ -42,7 +42,7 @@ wait (4) seconds
 wait (pick random (1) to (5)) seconds
 go to x: (-280) y: (-140)
 show
-glide (2) seconds to x: (280) y: (140)
+glide (2) secs to x: (280) y: (140)
 hide
 ```
 --- /task ---
