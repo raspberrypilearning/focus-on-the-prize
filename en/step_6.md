@@ -4,7 +4,7 @@ In this step you will make sure the gifts are not touching each other, or the ed
 
 It is possible that the gift boxes will finish their motion on top of each other, which might make it difficult to see which gift is which. To stop this from happening, you can detect if they are touching. The colour of the gift's ribbon, can be used to detect if two boxes are touching each other. 
 
-**The scripts shown below need to be added to both Gift and Gift2**
+**The scripts shown below needs to be added to both Gift and Gift2**
 
 --- task ---
 The `not`{:class="block3operators"} operator can be used to detect the opposite of a `sensing`{:class="block3sensing"} block that is placed inside it. Add a `repeat until`{:class="block3control"} block to the bottom of your script, and place a `not`{:class="block3operators"} block inside it.
