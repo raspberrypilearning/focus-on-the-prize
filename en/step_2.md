@@ -38,7 +38,7 @@ Set the sprite's size to **150%**
 
 --- task ---
 
-Use the **Costumes** tab to look at the costumes for the **Gift** sprite, and you will see two costumes called **Gift-a** and **Gift-b**.
+Use the **Costumes** tab to look at the costumes for the **Gift** sprite, and you will see two costumes called **gift-a** and **gift-b**.
 
 ![image showing the costumes tab for the gift sprite, along with the two default costumes](images/gift-costumes.png)
 
