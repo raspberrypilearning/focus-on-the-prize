@@ -4,6 +4,18 @@ In this step, you will add a gift box, that will briefly show what is hidden ins
 
 --- task ---
 
+Open a new Scratch project.
+
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target=”_blank”}.
+
+**Offline:** open a new project in the offline editor.If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target=”_blank”}.
+
+--- /task ---
+
+
+
+--- task ---
+
 Delete the Scratch cat sprite, by clicking on the trashcan icon in the corner.
 
 ![image showing Scratch cat icon, with trashcan in the top right hand corner](images/delete-cat.png)
