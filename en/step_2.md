@@ -36,7 +36,7 @@ The sprite is a little small at the moment, so increase the size of the sprite t
 
 --- task ---
 
-Use the **Costumes** tab to look at the costumes for the **Gift** sprite.
+Use the **Costumes** tab to look at the costumes for the **Gift** sprite, and you will see two costumes called **Gift-a** and **Gift-b**.
 
 ![image showing the costumes tab for the gift sprite, along with the two default costumes](images/gift-costumes.png)
 
@@ -56,7 +56,13 @@ Choose the gift that you would like to be inside the gift box. In this example, 
 
 --- task ---
 
-Back on the code tab, add some blocks to make the starting costume for the sprite **gift-a** then switch to **Crystal-a** and then back to **gift-a**, with wait blocks in between.
+Switch back to the code tab.
+
+![image showing code tab selected](images/code-tab.png)
+
+Now add some blocks to make the starting costume for the sprite **gift-a** then switch to **Crystal-a** and then back to **gift-a**, with `wait`{:class="block3control"} blocks in between.
+
+The `wait`{:class="block3control"} blocks give the player a chance to see the costume changes.
 
 ![image of the gift sprite](images/gift-sprite.png)
 

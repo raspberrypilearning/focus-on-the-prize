@@ -55,7 +55,7 @@ The boxes should always move at the same speed as each other. At the moment they
 
 --- task ---
 
-Create a new variable called `speed`{:class="block3variables"}, and add it to the `glide 1 secs to random position`{:class="block3motion"} blocks on **both** sprites.
+Create a new variable called `speed`{:class="block3variables"}, and add it to the `glide 1 secs to random position`{:class="block3motion"} blocks on **both** *Gift* and *Gift2*.
 
 ![image of gift sprite](images/gift-sprite.png)
 ![image of gift2 sprite](images/gift2-sprite.png)

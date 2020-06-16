@@ -7,7 +7,13 @@ It is possible that the gift boxes will finish their motion on top of each other
 **The scripts shown below need to be added to both Gift and Gift2**
 
 --- task ---
-The `not`{:class="block3operators"} operator can be used to detect the opposite of a `sensing`{:class="block3sensing"} block that is placed inside it. Add a `repeat until`{:class="block3control"} block to the bottom of your script, and place a `not`{:class="block3operators"} block inside it.
+The `not`{:class="block3operators"} operator can be used to turn a **True** into a **False**, or a **False into a **True**.
+
+A `sensing`{:class="block3sensing"} block that detects if a sprite is touching a colour, would return **True**, when the sprite touches that colour.
+
+By using the `not`{:class="block3operators"} operator, you can detect if a sprite is `not`{:class="block3operators"} `touching`{:class="block3sensing"} a color.
+
+Add a `repeat until`{:class="block3control"} block to the bottom of your script, and place a `not`{:class="block3operators"} block inside it.
 
 
 ![image of gift sprite](images/gift-sprite.png)
@@ -108,7 +114,7 @@ Right click on *Gift2* and select **duplicate** from the drop down menu.
 
 All the code has been duplicated as well, but *Gift3* needs a different starting position.
 
-![image of gift3 sprite](images/gift3.png)
+![image of gift3 sprite](images/gift3-sprite.png)
 
 ```blocks3
 when flag clicked

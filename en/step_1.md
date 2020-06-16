@@ -11,7 +11,7 @@ Watch the box with the diamond inside as it moves around. When the boxes stop mo
 
 
 <div class="scratch-preview">
-<iframe src="https://scratch.mit.edu/projects/404332740/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch.mit.edu/projects/405012395/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
 --- /no-print ---
