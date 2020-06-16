@@ -1,8 +1,6 @@
 ## Introduction
 
-In this project you'll make a game that will help you to improve your concentration. You'll have to watch really carefully to try and follow the gift-box with the ball inside while the other boxes and sprites try to distract you. Playing computer games can be a good way to relax and learn new skills, just make sure you balance gaming with other activities. 
-
-
+In this project you'll make a game that will help you to improve your concentration. You'll have to watch really carefully to try and follow the gift-box with the diamond inside while the other boxes and sprites try to distract you. Playing computer games can be a good way to relax and learn new skills, just make sure you balance gaming with other activities. 
 
 ### What you will make
 
