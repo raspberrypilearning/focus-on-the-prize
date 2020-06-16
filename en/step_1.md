@@ -50,6 +50,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/focus-on-the-prize/print){:target="_blank"}.
 
-Here is a link to the solution to this project [rpf.io/p/en/serene-scene-get](http://rpf.io/p/en/focus-on-the-prize-get).
+Here is a link to the solution to this project [rpf.io/p/en/focus-on-the-prize-get](http://rpf.io/p/en/focus-on-the-prize-get).
 
 --- /collapse ---
