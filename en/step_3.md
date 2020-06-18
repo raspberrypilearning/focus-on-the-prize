@@ -20,11 +20,11 @@ switch costume to [gift-a v]
 
 --- /task ---
 
-Broadcasts are messages that are sent by a sprite, that all sprites can receive.
+Broadcasts are messages that are sent by a sprite to some or all other sprites to receive.
 
-They are very useful for making sure that events in your program all happen at the same time.
+Broadcasts are very useful for making sure that events in your program all happen at the same time.
 
-In the `events`{:class="block3events"} menu, you can find the `broadcast`{:class="block3events"} blocks.
+In `events`{:class="block3events"}, seelct the `broadcast`{:class="block3events"} block.
 
 --- task ---
 
@@ -38,7 +38,7 @@ Create a new `broadcast`{:class="block3events"} to start moving. Call your new b
 
 --- task ---
 
-After a `wait`{:class="block3control"} of `1 second`{:class="block3control"} the `move`{:class="block3events"} block can be used.
+After a `wait`{:class="block3control"} of `1` `second`{:class="block3control"} the `move`{:class="block3events"} block can be used.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
@@ -58,7 +58,7 @@ switch costume to [gift-a v]
 
 --- task ---
 
-When the `move`{:class="block3events"} broadcast is received, the sprite can start moving in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10`{:class="block3control"} times.
+When the `move`{:class="block3events"} broadcast is received, the sprite can start moving in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10` times.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
