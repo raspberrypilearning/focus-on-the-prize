@@ -4,7 +4,7 @@ In this step, you will add code so that the player can click on a gift box, to s
 
 --- task ---
 
-On the **Gift** sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says yes`{:class="block3looks"} and `switches costume`{:class="block3looks"} to the crystal.
+On the Gift sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says'{:class="block3looks"} `yes` and `switches costume`{:class="block3looks"} to the crystal.
 
 ![image of gift sprite](images/gift-sprite.png)
 
@@ -18,7 +18,7 @@ switch costume to [Crystal-a]
 
 --- task ---
 
-The **Gift2** sprite should `say No!`{:class="block3looks"} and then `hide`{:class="block3looks"}
+The Gift2 sprite should `say`{:class="block3looks"} `No!` and then `hide`{:class="block3looks"}
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -32,7 +32,7 @@ hide
 
 --- task ---
 
-As the sprite can now be hidden, a `show`{:class="block3looks"} block is needed when the program starts, to make sure it is visible.
+As the Gift2 sprite can now be hidden, a `show`{:class="block3looks"} block is needed to make sure it is visible when the program starts.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -43,8 +43,6 @@ go to x: (0) y: (0)
 ```
 
 --- /task ---
-
-
 
 --- task ---
 
@@ -85,7 +83,7 @@ broadcast [move v] and wait
 
 --- task ---
 
-Now an `if`{:class="block3control"} block can be used to test if `finished`{:class="block3variables"} is `true`{:class="block3variables"} or `false`{:class="block3variables"}. The clicking should only be allowed, if `finished = true`{:class="block3operators"}.
+Now an `if`{:class="block3control"} block can be used to check if `finished`{:class="block3variables"} is `true`{:class="block3variables"} or `false`{:class="block3variables"}. Using an `Operator`{:class="block3operators"}, the clicking should only be allowed if `finished = true`{:class="block3operators"}.
 
 ![image of gift sprite](images/gift-sprite.png)
 
@@ -100,7 +98,7 @@ switch costume to [Crystal-a]
 
 --- task ---
 
-Add the same `if`{:class="block3control"} condition to the **Gift2** sprite.
+Add the same `if`{:class="block3control"} condition to the Gift2 sprite.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
