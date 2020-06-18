@@ -24,7 +24,7 @@ title: What you will need
 ---
 ### Hardware
 
-+ A Computer or tablet
++ A Computer or tablet capable of running Scratch
 
 ### Software
 
@@ -48,8 +48,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/focus-on-the-prize/print){:target="_blank"}.
+You can find the completed project [here](http://rpf.io/p/en/focus-on-the-prize-get){:target="_blank"}.
 
-Here is a link to the solution to this project [rpf.io/p/en/focus-on-the-prize-get](http://rpf.io/p/en/focus-on-the-prize-get).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/focus-on-the-prize/print){:target="_blank"}.
 
 --- /collapse ---
