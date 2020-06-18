@@ -12,8 +12,6 @@ Open a new Scratch project.
 
 --- /task ---
 
-
-
 --- task ---
 
 Delete the Scratch cat sprite, by clicking on the trashcan icon in the corner.
@@ -24,7 +22,7 @@ Delete the Scratch cat sprite, by clicking on the trashcan icon in the corner.
 
 --- task ---
 
-Use the **Choose a Sprite** icon, to search for a new sprite to add to your game.
+Go to **Choose a Sprite** to search for a new sprite to add to your game.
 
 ![image showing the choose sprite icon with expanded options](images/choose-sprite.png)
 
@@ -50,11 +48,11 @@ Set the sprite's size to **150%**
 
 --- task ---
 
-Use the **Costumes** tab to look at the costumes for the **Gift** sprite, and you will see two costumes called **gift-a** and **gift-b**.
+Use the **Costumes** tab to look at the costumes for the **Gift** sprite. You will see two costumes called **gift-a** and **gift-b**.
 
 ![image showing the costumes tab for the gift sprite, along with the two default costumes](images/gift-costumes.png)
 
-Then use the **Choose a Costume** icon to add a new costume to the sprite.
+Go to the **Choose a Costume** icon to add a new costume to the sprite.
 
 ![image showing the expanded choose a costume icon](images/choose-costume.png)
 
@@ -70,11 +68,11 @@ Choose the gift that you would like to be inside the gift box. In this example, 
 
 --- task ---
 
-Switch back to the code tab.
+Switch back to the code tab so you can begin to work on the program.
 
 ![image showing code tab selected](images/code-tab.png)
 
-Now add some blocks to make the starting costume for the sprite **gift-a** then switch to **Crystal-a** and then back to **gift-a**, with `wait`{:class="block3control"} blocks in between.
+Add some blocks to make the starting costume for the sprite **gift-a** to switch to **Crystal-a** and then back to **gift-a**, again with `wait`{:class="block3control"} blocks in between.
 
 The `wait`{:class="block3control"} blocks give the player a chance to see the costume changes.
 
