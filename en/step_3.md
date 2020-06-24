@@ -22,9 +22,9 @@ switch costume to [gift-a v]
 
 Broadcasts are messages that are sent by a sprite to some or all other sprites to receive.
 
-Broadcasts are very useful for making sure that events in your program all happen at the same time.
+Broadcasts are very useful for making sure that events in your program all happen simultaneously.
 
-In `events`{:class="block3events"}, seelct the `broadcast`{:class="block3events"} block.
+In `events`{:class="block3events"}, select the `broadcast`{:class="block3events"} block.
 
 --- task ---
 
@@ -84,6 +84,6 @@ Click the green flag to check that your sprite starts randomly moving, after the
 
 --- save ---
 
-
+*[simultaneously]: This just means "at the same time"
 
 
