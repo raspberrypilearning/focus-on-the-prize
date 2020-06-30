@@ -18,7 +18,7 @@ switch costume to [Crystal-a]
 
 --- task ---
 
-The Gift2 sprite should `say`{:class="block3looks"} `No!` and then `hide`{:class="block3looks"}
+The **Gift2** sprite should `say`{:class="block3looks"} `No!` and then `hide`{:class="block3looks"}
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -32,7 +32,7 @@ hide
 
 --- task ---
 
-As the Gift2 sprite can now be hidden, a `show`{:class="block3looks"} block is needed to make sure it is visible when the program starts.
+As the **Gift2** sprite can now be hidden, a `show`{:class="block3looks"} block is needed to make sure it is visible when the program starts.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -98,7 +98,7 @@ switch costume to [Crystal-a]
 
 --- task ---
 
-Add the same `if`{:class="block3control"} condition to the Gift2 sprite.
+Add the same `if`{:class="block3control"} condition to the **Gift2** sprite.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
