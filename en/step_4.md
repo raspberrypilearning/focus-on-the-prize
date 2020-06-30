@@ -14,7 +14,7 @@ Don't forget to increase it's size to **150%**
 
 --- task ---
 
-The Gift2 sprite should start in the centre of the screen.
+The **Gift2** sprite should start in the centre of the screen.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -57,8 +57,7 @@ The boxes should always move at the same speed as each other. At the moment they
 
 Create a new variable called `speed`{:class="block3variables"}, and add it to the `glide 1 secs to random position`{:class="block3motion"} block and add to **both** the Gift and Gift2 sprites.
 
-![image of gift sprite](images/gift-sprite.png)
-![image of gift2 sprite](images/gift2-sprite.png)
+![image of gift sprite](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
