@@ -91,15 +91,6 @@ repeat until < <not <touching color (#F9C780) ?>> and <not <touching [edge v] ?>
 glide (speed) secs to [random position v]
 ```
 
-```blocks3
-when I receive [move v]
-repeat (10)
-glide (speed) secs to [random position v]
-end
-+ repeat until < <not <touching color (#F9C780) ?>> and <not <touching [edge v] ?>>
-glide (speed) secs to [random position v]
-```
-
 --- /task ---
 
 --- task ---
@@ -108,10 +99,10 @@ Test your code again, to make sure that the boxes now do not stop at the edge of
 
 --- /task ---
 
-Now that the code for the Gift and Gift2 sprites are complete, you can duplicate the Gift2 sprite to add a third box to the game.
+Now that the code for the **Gift** and **Gift2** sprites are complete, you can duplicate the **Gift2** sprite to add a third box to the game.
 
 --- task ---
-Right click on the Gift2 sprite and select **duplicate** from the drop down menu.
+Right click on the **Gift2** sprite and select **duplicate** from the drop down menu.
 
 ![image showing drop down menu with duplicate selected](images/duplicate-sprite.png)
 
@@ -119,7 +110,7 @@ Right click on the Gift2 sprite and select **duplicate** from the drop down menu
 
 --- task ---
 
-All the code has been duplicated as well, but the Gift3 sprite needs a different starting position.
+All the code has been duplicated as well, but the **Gift3** sprite needs a different starting position.
 
 ![image of gift3 sprite](images/gift3-sprite.png)
 
