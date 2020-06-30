@@ -24,7 +24,7 @@ Broadcasts are messages that are sent by a sprite to some or all other sprites t
 
 Broadcasts are very useful for making sure that events in your program all happen simultaneously.
 
-In `events`{:class="block3events"}, select the `broadcast`{:class="block3events"} block.
+In `Events`{:class="block3events"}, select the `broadcast`{:class="block3events"} block.
 
 --- task ---
 
@@ -38,7 +38,7 @@ Create a new `broadcast`{:class="block3events"} to start moving. Call your new b
 
 --- task ---
 
-After a `wait`{:class="block3control"} of `1` `second`{:class="block3control"} the `move`{:class="block3events"} block can be used.
+After a `wait`{:class="block3control"} of `1` `second`{:class="block3control"} the `move`{:class="block3events"} broadcast can be used.
 
 ![image of the gift sprite](images/gift-sprite.png)
 

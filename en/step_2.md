@@ -72,7 +72,7 @@ Switch back to the code tab so you can begin to work on the program.
 
 ![image showing code tab selected](images/code-tab.png)
 
-Add some blocks to make the starting costume for the sprite **gift-a** to switch to **Crystal-a** and then back to **gift-a**, again with `wait`{:class="block3control"} blocks in between.
+Add some blocks to make the starting costume for the sprite **Gift** to switch to **Crystal-a** and then back to **gift-a**, again with `wait`{:class="block3control"} blocks in between.
 
 The `wait`{:class="block3control"} blocks give the player a chance to see the costume changes.
 
