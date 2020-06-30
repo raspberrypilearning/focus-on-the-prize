@@ -4,7 +4,7 @@ In this step, you will add code so that the player can click on a gift box, to s
 
 --- task ---
 
-On the Gift sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says'{:class="block3looks"} `yes` and `switches costume`{:class="block3looks"} to the crystal.
+On the **Gift** sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says`{:class="block3looks"} `yes` and `switches costume`{:class="block3looks"} to the crystal.
 
 ![image of gift sprite](images/gift-sprite.png)
 
