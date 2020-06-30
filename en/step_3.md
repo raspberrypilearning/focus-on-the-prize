@@ -28,9 +28,9 @@ In `Events`{:class="block3events"}, select the `broadcast and wait`{:class="bloc
 
 --- task ---
 
-Create a new `broadcastAndWait`{:class="block3events"} to start moving. Call your new broadcast `move`{:class="block3events"}
+Create a new `broadcast`{:class="block3events"} to start moving. Call your new broadcast `move`{:class="block3events"}
 
-![image showing broadcast block with the name options expanded](images/broadcast.png)
+![image showing broadcast block with the name options expanded](images/broadcastAndWait.png)
 
 ![image showing the dialogue box for creating a new broadcast, with the name "move" typed in](images/new-message.png)
 
