@@ -83,7 +83,7 @@ broadcast [move v] and wait
 
 --- task ---
 
-Now an `if`{:class="block3control"} block can be used to check if `finished`{:class="block3variables"} is `true`{:class="block3variables"} or `false`{:class="block3variables"}. Using an `Operator`{:class="block3operators"}, the clicking should only be allowed if `finished = true`{:class="block3operators"}.
+Now an `if`{:class="block3control"} block can be used to check if `finished`{:class="block3variables"} is `true`{:class="block3variables"} or `false`{:class="block3variables"}. Using an `Operator`{:class="block3operators"}, the clicking should only have any effect if `finished`{:class="block3variables"}` = true`{:class="block3operators"}.
 
 ![image of gift sprite](images/gift-sprite.png)
 
