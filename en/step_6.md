@@ -39,8 +39,7 @@ Add in a `touching color`{:class="block3sensing"} block, and use the color picke
 
 --- /no-print ---
 
-![image of gift sprite](images/gift-sprite.png)
-![image of gift2 sprite](images/gift2-sprite.png)
+![image of gift sprite](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -56,8 +55,7 @@ end
 
 Within the `repeat until`{:class="block3control"} block, add in another block to keep the box moving to a random position.
 
-![image of gift sprite](images/gift-sprite.png)
-![image of gift2 sprite](images/gift2-sprite.png)
+![image of gift sprite](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -82,8 +80,7 @@ It would also be nice if the boxes didn't stop when they are off the edge of the
 
 Add in an `and`{:class="block3operators"} into the `repeat until`{:class="block3control"} condition. Then add in a `touching edge`{:class="block3sensing"} block to go with the `not`{:class="block3operators"} `touching color`{:class="block3sensing"} blocks.
 
-![image of gift sprite](images/gift-sprite.png)
-![image of gift2 sprite](images/gift2-sprite.png)
+![image of gift sprite](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
