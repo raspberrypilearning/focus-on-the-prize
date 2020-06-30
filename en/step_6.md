@@ -87,7 +87,7 @@ when I receive [move v]
 repeat (10)
 glide (speed) secs to [random position v]
 end
-repeat until < <not <touching color (#F9C780) ?>> and <not <touching [edge v] ?>::operator +>
+repeat until < <not <touching color (#F9C780) ?>> and <not <touching [edge v] ?>>::operator +
 glide (speed) secs to [random position v]
 ```
 
