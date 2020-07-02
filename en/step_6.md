@@ -9,7 +9,7 @@ It is possible that the gift boxes will finish their motion on top of each other
 --- task ---
 The `not`{:class="block3operators"} operator can be used to turn a **True** into a **False**, or a **False** into a **True**.
 
-A `sensing`{:class="block3sensing"} block that detects if a sprite is touching a colour, would return **True**, when the sprite touches that colour.
+A `Sensing`{:class="block3sensing"} block that detects if a sprite is touching a colour, would return **True**, when the sprite touches that colour.
 
 By using the `not`{:class="block3operators"} operator, you can detect if a sprite is `not`{:class="block3operators"} `touching`{:class="block3sensing"} a color.
 
