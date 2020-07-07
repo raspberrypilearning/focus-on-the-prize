@@ -4,7 +4,7 @@ To finish off the game you can add a distraction, to try and stop the player kee
 
 --- task ---
 
-Add a new sprite to your game. You can choose any sprite you like, but in this example the Duck sprite will be used.
+Add a new sprite to your game. You can choose any sprite you like, but in this example the **Duck** sprite will be used.
 
 ![image of duck sprite](images/duck-sprite.png)
 
@@ -14,7 +14,7 @@ When the game begins the duck should be hidden and only start to move after the 
 
 --- task ---
 
-Add the following blocks to the Duck sprite.
+Add the following blocks to the **Duck** sprite.
 
 ![image of duck sprite](images/duck-sprite.png)
 
