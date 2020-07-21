@@ -37,8 +37,8 @@ title: What you will need
 title: What you will learn
 ---
 
-- How to use broadcasts to communicate between sprites
-- How to detect when two sprites touch each other
+- How to use `broadcasts`{:class="block3events"} to communicate between sprites
+- How to detect when two sprites `touch`{:class="block3sensing"} each other
 - How to use `and`{:class="block3operators"} and `not`{:class="block3operators"} `Boolean operators`{:class="block3operators"}
 
 --- /collapse ---
