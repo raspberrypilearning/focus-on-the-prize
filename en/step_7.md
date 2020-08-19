@@ -1,16 +1,16 @@
 ## Add a distraction
 
-To finish off the game you can add a distraction, to try and stop the player keeping their eyes on the gift box.
+To finish the game, you can add a distraction, to try to stop the player keeping their eyes on the gift box.
 
 --- task ---
 
-Add a new sprite to your game. You can choose any sprite you like, but in this example the **Duck** sprite will be used.
+Add a new sprite to your game. You can choose any sprite you like, but in this example, we will use the **Duck** sprite.
 
 ![image of duck sprite](images/duck-sprite.png)
 
 --- /task ---
 
-When the game begins the duck should be hidden and only start to move after the boxes start moving. It's also useful to bring the duck to the front layer, so it moves over the top of the boxes.
+When the game begins, the duck should be hidden, and it should only start to move after the boxes have started moving. It is also useful to bring the duck to the front layer, so that it moves over the top of the boxes.
 
 --- task ---
 
@@ -29,7 +29,7 @@ wait (4) seconds
 
 --- task ---
 
-Next, the duck should wait a random number of seconds then move across the screen and hide itself. This can keep happening until the game has finished.
+Next, the duck should wait a random number of seconds, then move across the screen and hide itself. This can keep happening until the game has finished.
 
 ![image of duck sprite](images/duck-sprite.png)
 
