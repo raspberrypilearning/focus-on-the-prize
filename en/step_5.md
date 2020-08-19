@@ -1,10 +1,10 @@
 ## Did you get it right?
 
-In this step, you will add code so that the player can click on a gift box, to see if it has the crystal inside.
+In this step, you will add code so that the player can click on a gift box to see if it has the crystal inside it.
 
 --- task ---
 
-On the **Gift** sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says`{:class="block3looks"} `yes` and `switches costume`{:class="block3looks"} to the crystal.
+On the **Gift** sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says`{:class="block3looks"} `Yes!` and `switches costume to`{:class="block3looks"} the crystal.
 
 ![image of gift sprite](images/gift-sprite.png)
 
@@ -18,7 +18,7 @@ switch costume to [Crystal-a]
 
 --- task ---
 
-The **Gift2** sprite should `say`{:class="block3looks"} `No!` and then `hide`{:class="block3looks"}
+The **Gift2** sprite should `say`{:class="block3looks"} `No!` and then `hide`{:class="block3looks"}.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -32,7 +32,7 @@ hide
 
 --- task ---
 
-As the **Gift2** sprite can now be hidden, a `show`{:class="block3looks"} block is needed to make sure it is visible when the program starts.
+As the **Gift2** sprite can now be hidden, a `show`{:class="block3looks"} block is needed to make sure that it is visible when the program starts.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -46,11 +46,11 @@ go to x: (0) y: (0)
 
 --- task ---
 
-Click the green flag to run your code, and test what happens when you click on the boxes.
+Click on the green flag to run your code, and test what happens when you click on the boxes.
 
 --- /task ---
 
-You may notice, that you can actually click on the boxes while they are moving around. You can use a `variable`{:class="block3variables"} to stop players cheating like this.
+You may notice that you can click on the boxes while they are moving around. You can use a `variable`{:class="block3variables"} to stop players cheating like this.
 
 --- no-print ---
 
@@ -60,7 +60,7 @@ You may notice, that you can actually click on the boxes while they are moving a
 
 --- task ---
 
-Create a new variable called `finished`{:class="block3variables"}. This can be set to `false`{:class="block3variables"} when the gifts start moving, and then `true`{:class="block3variables"} when the gifts stop moving.
+Create a new `variable`{:class="block3variables"} called `finished`. This can be set to `false`{:class="block3variables"} when the gifts start moving, and then `true`{:class="block3variables"} when the gifts stop moving.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
@@ -83,7 +83,7 @@ broadcast [move v] and wait
 
 --- task ---
 
-Now an `if`{:class="block3control"} block can be used to check if `finished`{:class="block3variables"} is `true`{:class="block3variables"} or `false`{:class="block3variables"}. Using an `Operator`{:class="block3operators"}, the clicking should only have any effect if `finished`{:class="block3variables"}` = true`{:class="block3operators"}.
+Now, you can use an `if`{:class="block3control"} block to check if `finished`{:class="block3variables"} is `true`{:class="block3variables"} or `false`{:class="block3variables"}. Using an `Operator`{:class="block3operators"}, the clicking should only have any effect if `finished`{:class="block3variables"}` = true`{:class="block3operators"}.
 
 ![image of gift sprite](images/gift-sprite.png)
 
