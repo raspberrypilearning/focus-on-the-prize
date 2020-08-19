@@ -1,10 +1,10 @@
 ## Move it
 
-Now that you have a box with a gift inside it, it's time to make it move around the screen.
+Now that you have a box with a gift inside it, you need to make it move around the screen.
 
 --- task ---
 
-To start with, give the gift a starting position to the left of the screen.
+First, give the gift a starting position to the left of the screen.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
@@ -20,15 +20,15 @@ switch costume to [gift-a v]
 
 --- /task ---
 
-Broadcasts are messages that are sent by a sprite to some or all other sprites to receive.
+**Broadcasts** are messages that are sent by a sprite to some or all other sprites to receive.
 
 Broadcasts are very useful for making sure that events in your program all happen simultaneously.
 
-In `Events`{:class="block3events"}, select the `broadcast and wait`{:class="block3events"} block.
+In the `Events`{:class="block3events"} blocks menu, select the `broadcast and wait`{:class="block3events"} block.
 
 --- task ---
 
-Create a new `broadcast`{:class="block3events"} to start moving. Call your new broadcast `move`{:class="block3events"}
+Create a new `broadcast`{:class="block3events"} to start moving. Call your new broadcast `move`.
 
 ![image showing broadcast block with the name options expanded](images/broadcastAndWait.png)
 
@@ -38,7 +38,7 @@ Create a new `broadcast`{:class="block3events"} to start moving. Call your new b
 
 --- task ---
 
-After a `wait`{:class="block3control"} of `1` `second`{:class="block3control"} the `move`{:class="block3events"} broadcast can be used.
+After a `wait`{:class="block3control"} of `1` `second`{:class="block3control"}, the `move`{:class="block3events"} broadcast can be used.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
@@ -72,7 +72,7 @@ glide (1) secs to [random position v]
 
 --- task ---
 
-Click the green flag to check that your sprite starts randomly moving, after the costume changes.
+Click on the green flag, and check that your sprite starts moving randomly, after the costume changes.
 
 --- no-print ---
 
@@ -84,6 +84,6 @@ Click the green flag to check that your sprite starts randomly moving, after the
 
 --- save ---
 
-*[simultaneously]: This just means "at the same time"
+*[simultaneously]: This just means 'at the same time'
 
 
