@@ -84,6 +84,6 @@ Click on the green flag, and check that your sprite starts moving randomly, afte
 
 --- save ---
 
-*[simultaneously]: This just means 'at the same time'
+*[simultaneously]: This means 'at the same time'.
 
 
