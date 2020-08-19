@@ -1,6 +1,6 @@
 ## Share your project
 
-You can share your completed Scratch project with your friends and family, by following the instructions below.
+You can share your completed Scratch project with your friends and family. To do this, follow the instructions below:
 
 [[[share-scratch]]]
 
