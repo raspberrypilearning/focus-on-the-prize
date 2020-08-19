@@ -1,6 +1,6 @@
 title: Focus on the prize
 hero_image: images/focus-banner.png
-description: Improve your concentration by following the gift-box with the diamond inside while the other gift-boxes and surprise sprites try to distract you
+description: Improve your concentration by following the gift box with the diamond inside it while the other gift boxes and surprise sprites try to distract you
 version: 4
 listed: false
 copyedit: false
@@ -13,7 +13,7 @@ steps:
   - title: "Did you get it right?"
   - title: More gifts  
   - title: Add a distraction
-  - title: "Challenge: More distractions!"
+  - title: "Challenge: more distractions!"
     challenge: true
-  - title: Demonstrate your project
+  - title: Share your project
   - title: "What next?"
