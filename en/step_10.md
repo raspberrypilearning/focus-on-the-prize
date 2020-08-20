@@ -1,9 +1,9 @@
 ## What next?
 
 In this project you have:
-Used a not block to move gifts until they are not touching each other or the edge of the stage.
-Used a repeat loop to move gifts a set number of times.
-Used a broadcast block to tell all of the gifts when to move.
++ Used a `not`{:class="block3operators"} block to move gifts until they are `not`{:class="block3operators"} `touching`{:class="block3sensing"} each other or the edge of the stage
++ Used a `repeat`{:class="block3control"} loop to move gifts a set number of times
++ Used a `broadcast`{:class="block3events"} block to tell all of the gifts when to move
 
 If you are following the Look After Yourself pathway, then you might like to try out the first of our **Make your own** projects, [Looping sprites](https://projects.raspberrypi.org/en/projects/looping-sprites).
 
