@@ -1,10 +1,10 @@
-## Did you get it right?
+## Add the answers
 
 In this step, you will add code so that the player can click on a gift box to see if it has the crystal inside it.
 
 --- task ---
 
-On the **Gift** sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says`{:class="block3looks"} `Yes!` and `switches costume to`{:class="block3looks"} the crystal.
+In the code for the **Gift** sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says`{:class="block3looks"} `Yes!` and `switches costume to`{:class="block3looks"} the crystal.
 
 ![image of gift sprite](images/gift-sprite.png)
 
@@ -18,7 +18,7 @@ switch costume to [Crystal-a]
 
 --- task ---
 
-The **Gift2** sprite should `say`{:class="block3looks"} `No!` and then `hide`{:class="block3looks"}.
+Click on the **Gift2** sprite and add blocks so that it `says`{:class="block3looks"} `No!` and then `hides`{:class="block3looks"}.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -32,7 +32,7 @@ hide
 
 --- task ---
 
-As the **Gift2** sprite can now be hidden, a `show`{:class="block3looks"} block is needed to make sure that it is visible when the program starts.
+As the **Gift2** sprite can now be hidden, you need to add a `show`{:class="block3looks"} block to make sure that it is visible when the program starts.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -60,7 +60,7 @@ You may notice that you can click on the boxes while they are moving around. You
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `finished`. This can be set to `false`{:class="block3variables"} when the gifts start moving, and then `true`{:class="block3variables"} when the gifts stop moving.
+Create a new `variable`{:class="block3variables"} called `finished`. Add blocks to `set`{:class="block3variables"} the `finished`{:class="block3variables"} variable to `false` when the gifts start moving, and then to `true` when the gifts stop moving.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
@@ -83,7 +83,7 @@ broadcast [move v] and wait
 
 --- task ---
 
-Now, you can use an `if`{:class="block3control"} block to check if `finished`{:class="block3variables"} is `true`{:class="block3variables"} or `false`{:class="block3variables"}. Using an `Operator`{:class="block3operators"}, the clicking should only have any effect if `finished`{:class="block3variables"}` = true`{:class="block3operators"}.
+Now, you can use an `if … then`{:class="block3control"} block to check if `finished`{:class="block3variables"} is true or false. Add an `Operators`{:class="block3operators"} block so that the clicking only has any effect if `finished`{:class="block3variables"} `=`{:class="block3operators"} `true`.
 
 ![image of gift sprite](images/gift-sprite.png)
 
@@ -113,7 +113,7 @@ hide
 
 --- task ---
 
-Test your program, and you should see that the sprites can only be clicked on when they finish moving around.
+Test your program, and you should see that you can only click on the sprites when they have finished moving around.
 
 --- /task ---
 
