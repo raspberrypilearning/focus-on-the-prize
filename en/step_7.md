@@ -29,7 +29,7 @@ wait (4) seconds
 
 --- task ---
 
-Next, the duck should wait a random number of seconds, then move across the screen and hide itself. This can keep happening until the game has finished.
+Next, the **Duck** sprite should `wait`{:class="block3control"}  a `random`{:class="block3operators"} number of seconds, then `glide`{:class="block3motion} across the Stage and `hide`{:class="block3looks"}. This can keep happening until the game has finished.
 
 ![image of duck sprite](images/duck-sprite.png)
 
@@ -49,7 +49,7 @@ hide
 
 --- task ---
 
-Test your game and see if you can keep track of the gift box with a distracting duck flying across the screen.
+Test your game and see if you can keep track of the gift box with a distracting duck flying across the Stage.
 
 --- /task ---
 
