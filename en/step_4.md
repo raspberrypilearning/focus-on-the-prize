@@ -1,4 +1,4 @@
-## Empty boxes
+## Add an empty box
 
 In this step, you will add another gift box, but this one will be empty! It will also move around in random directions.
 
@@ -8,13 +8,13 @@ Add a second **Gift** sprite. This one will be named **Gift2** automatically.
 
 ![images showing two gift sprites side by side](images/two-gifts.png)
 
-Remember to increase its size to **150%**.
+Remember to increase its size to `150` (percent).
 
 --- /task ---
 
 --- task ---
 
-The **Gift2** sprite should start in the centre of the screen.
+Set the **Gift2** sprite to start in the centre of the Stage.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -27,7 +27,7 @@ go to x: (0) y: (0)
 
 --- task ---
 
-When this sprite `receives move`{:class="block3events"}, it should also move in random directions.
+Add blocks so that when this sprite `receives move`{:class="block3events"}, it also starts to `glide`{:class="block3motion"} in random directions.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -41,7 +41,7 @@ glide (1) secs to [random position v]
 
 --- task ---
 
-Click on the green flag, and watch the two sprites move around the screen.
+Click on the green flag, and watch the two sprites move around the Stage.
 
 --- no-print ---
 
@@ -51,11 +51,11 @@ Click on the green flag, and watch the two sprites move around the screen.
 
 --- /task ---
 
-The boxes should always move at the same speed as each other. At the moment, they are set to `glide 1 secs`{:class="block3motion"}. To easily change the speed of both boxes, a `variable`{:class="block3variables"} can be used.
+The boxes should always move at the same speed as each other. At the moment, they are set to `glide 1 secs`{:class="block3motion"}. To change the speed of both boxes easily, you can use a `variable`{:class="block3variables"}.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `speed`, and add it to the `glide 1 secs to random position`{:class="block3motion"} block and add to both the **Gift** and **Gift2** sprites.
+Create a new `variable`{:class="block3variables"} called `speed`, and add it to the `glide 1 secs to random position`{:class="block3motion"} block. Add this block to both the **Gift** and **Gift2** sprites.
 
 ![image of gift sprite](images/gift-gift2-sprite.png)
 
@@ -69,7 +69,7 @@ repeat (10)
 
 --- task ---
 
-On the first gift sprite, you can add code to set the speed variable. Choose any value you like.
+In the code for the **Gift** sprite, you can add code to `set`{:class="block3variables"} the `speed`{:class="block3variables"} variable. Choose any value you like.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
