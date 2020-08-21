@@ -90,7 +90,7 @@ broadcast [move v] and wait
 
 --- task ---
 
-Experiment with different speeds, until you find a value you like.
+Experiment with different values, until you find a speed you like.
 
 --- /task ---
 
