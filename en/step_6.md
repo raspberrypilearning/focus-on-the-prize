@@ -4,7 +4,7 @@ In this step, you will make sure that the gifts are not touching each other, or 
 
 It is possible that the gift boxes will stop on top of each other, which might make it difficult to see which gift box is which. To stop this from happening, you can detect if they are touching. The colour of the gift box's ribbon can be used to detect if two boxes are touching each other. 
 
-You need to add the scripts shown below to **both** the Gift and Gift2 sprites.
+You need to add the scripts shown below to **both** the **Gift** and **Gift2** sprites.
 
 --- task ---
 You can use the `not`{:class="block3operators"} operator to turn **true** into **false**, or **false** into **true**.
