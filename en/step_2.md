@@ -1,4 +1,4 @@
-## Gift in a box
+## Add a gift in a box
 
 In this step, you will add a gift box that will briefly show what is hidden inside it.
 
@@ -14,7 +14,7 @@ Open a new Scratch project.
 
 --- task ---
 
-Delete the **Scratch cat** sprite. To do this, click on the **Rubbish bin** icon in the corner.
+Delete the **Scratch cat** sprite. To do this, click on the **Rubbish bin** icon in the corner of the image in the Sprite list.
 
 ![image showing Scratch cat icon, with trashcan in the top right hand corner](images/delete-cat.png)
 
@@ -38,9 +38,9 @@ Search for the **Gift** sprite, then add it to your game.
 
 --- task ---
 
-The sprite is a little small at the moment. Previously, you may have increased a sprite's size using the `set size to`{:class="block3looks"} block, but you can also increase the size of the sprite by changing its **properties**.
+The sprite is a little small at the moment. To increase the sprite's size, you can either use the `set size to`{:class="block3looks"} block, as you may have done in other projects, or you can change the sprite’s **properties**.
 
-Set the sprite's size to **150%**.
+Set the sprite's size to `150` (percent).
 
 ![image showing properties for the sprite with the size set to 150 percent](images/set-size.png)
 
@@ -60,7 +60,7 @@ Click on the **Choose a Costume** icon to add a new costume to the sprite.
 
 --- task ---
 
-Choose the gift that you would like to be inside the gift box. In this example, we will use the **Crystal-a** costume.
+Choose the gift that you would like to put inside the gift box. In this example, we will use the **Crystal-a** costume.
 
 ![image showing the search for a crystal costume, with Crystal-a and Crystal-b shown](images/choose-crystal-costume.png)
 
@@ -72,7 +72,7 @@ Switch back to the **Code** tab so that you can begin to work on the program.
 
 ![image showing code tab selected](images/code-tab.png)
 
-Add some blocks to make the starting costume for the **Gift** sprite switch to **Crystal-a** and then back to **gift-a**, again with `wait`{:class="block3control"} blocks in between.
+Add some blocks to make the starting costume for the **Gift** sprite `switch`{:class="block3looks"} to `Crystal-a`{:class="block3looks"} and then back to `gift-a`{:class="block3looks"} again. Use `wait`{:class="block3control"} blocks in between the costume changes.
 
 The `wait`{:class="block3control"} blocks give the player a chance to see the costume changes.
 
