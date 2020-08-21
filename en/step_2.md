@@ -38,7 +38,7 @@ Search for the **Gift** sprite, then add it to your game.
 
 --- task ---
 
-The sprite is a little small at the moment. To increase the sprite's size, you can either use the `set size to`{:class="block3looks"} block, as you may have done in other projects, or you can change the sprite’s **properties**.
+The sprite is a little small at the moment. To increase the sprite's size, you can either use the `set size to`{:class="block3looks"} block, as you may have done in other projects, or you can change the sprite's **properties**.
 
 Set the sprite's size to `150` (percent).
 
