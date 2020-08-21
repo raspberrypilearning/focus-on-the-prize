@@ -1,4 +1,4 @@
-## Move it
+## Move the gift box
 
 Now that you have a box with a gift inside it, you need to make it move around the screen.
 
@@ -20,11 +20,11 @@ switch costume to [gift-a v]
 
 --- /task ---
 
-**Broadcasts** are messages that are sent by a sprite to some or all other sprites to receive.
+**Broadcasts** are messages that are sent by a sprite for some or all other sprites to receive.
 
 Broadcasts are very useful for making sure that events in your program all happen simultaneously.
 
-In the `Events`{:class="block3events"} blocks menu, select the `broadcast and wait`{:class="block3events"} block.
+In the `Events`{:class="block3events"} blocks menu, select the `broadcast message1 and wait`{:class="block3events"} block.
 
 --- task ---
 
@@ -38,7 +38,7 @@ Create a new `broadcast`{:class="block3events"} to start moving. Call your new b
 
 --- task ---
 
-After a `wait`{:class="block3control"} of `1` `second`{:class="block3control"}, the `move`{:class="block3events"} broadcast can be used.
+Add a `wait`{:class="block3control"} block, then add the `broadcast move and wait`{:class="block3events"} block.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
@@ -58,7 +58,7 @@ switch costume to [gift-a v]
 
 --- task ---
 
-When the `move`{:class="block3events"} broadcast is received, the sprite can start moving in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10` times.
+When the `move`{:class="block3events"} broadcast is received, the sprite can start to `glide`{:class="block3motion"} in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10` times.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
