@@ -1,8 +1,8 @@
-## Challenge: more distractions!
+## Challenge: add more distractions!
 
 Can you add more distractions to your game to make it even harder to keep your eye on the correct gift box?
 
-Think about some of the things that you have learned in previous Scratch projects that might make the game even harder, such as changing costumes, adding graphical effects, changing sizes, and moving and turning.
+Think about some of the things that you have learned in other Scratch projects that might make the game even harder, such as changing costumes, adding graphic effects, changing sizes, and moving and turning.
 
 --- no-print ---
 
