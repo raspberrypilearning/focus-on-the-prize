@@ -1,0 +1,19 @@
+title: Focus on the prize
+hero_image: images/focus-banner.png
+description: Improve your concentration by following the gift box with the diamond inside it while the other gift boxes and surprise sprites try to distract you
+version: 4
+listed: false
+copyedit: false
+last_tested: "2020-06-12"
+steps:
+  - title: Introduction
+  - title: Add a gift in a box
+  - title: Move the gift box
+  - title: Add an empty box
+  - title: Add the answers
+  - title: Add more gifts  
+  - title: Add a distraction
+  - title: "Challenge: add more distractions!"
+    challenge: true
+  - title: Share your project
+  - title: "What next?"
