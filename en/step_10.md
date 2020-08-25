@@ -6,3 +6,5 @@ In this project, you have:
 + Used a `broadcast`{:class="block3events"} block to tell all the gift boxes when to move
 
 If you have been following the [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects, you might like to explore Scratch some more. Try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch).
+
+Spotted a mistake? Enjoyed the project? Please let us know! Click the Send feedback button below.
