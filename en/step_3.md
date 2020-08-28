@@ -4,7 +4,7 @@ Now that you have a box with a gift inside it, you need to make it move around t
 
 --- task ---
 
-First, give the gift a starting position to the left of the screen.
+First, use a `go to x: y:`{:class="block3motion"} block to give the gift a starting position to the left of the Stage.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
@@ -58,7 +58,7 @@ switch costume to [gift-a v]
 
 --- task ---
 
-When the `move`{:class="block3events"} broadcast is received, the sprite can start to `glide`{:class="block3motion"} in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10` times.
+When the sprite `receives`{:class="block3events"} the `move`{:class="block3events"} broadcast, the sprite can start to `glide`{:class="block3motion"} in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10` times.
 
 ![image of the gift sprite](images/gift-sprite.png)
 
