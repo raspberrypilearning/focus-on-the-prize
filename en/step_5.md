@@ -11,7 +11,7 @@ In the code for the **Gift** sprite, add code so that `when this sprite clicked`
 ```blocks3
 when this sprite clicked
 say [Yes!]
-switch costume to [Crystal-a]
+switch costume to [Crystal-a v]
 ```
 
 --- /task ---

@@ -29,7 +29,7 @@ wait (4) seconds
 
 --- task ---
 
-Next, the **Duck** sprite should `wait`{:class="block3control"}  a `random`{:class="block3operators"} number of seconds, then `glide`{:class="block3motion} across the Stage and `hide`{:class="block3looks"}. This can keep happening until the game has finished.
+Next, the **Duck** sprite should `wait`{:class="block3control"}  a `random`{:class="block3operators"} number of seconds, then `glide`{:class="block3motion"} across the Stage and `hide`{:class="block3looks"}. This can keep happening until the game has finished.
 
 ![image of duck sprite](images/duck-sprite.png)
 
