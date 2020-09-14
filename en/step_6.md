@@ -9,12 +9,7 @@ You need to add the scripts shown below to **both** the **Gift** and **Gift2** s
 --- task ---
 You can use the `not`{:class="block3operators"} operator to turn **true** into **false**, or **false** into **true**.
 
-A `Sensing`{:class="block3sensing"} block that detects if a sprite is touching a particular colour would return **true** when the sprite touches that colour.
-
-You can use the `not`{:class="block3operators"} operator to detect if a sprite is `not`{:class="block3operators"} `touching`{:class="block3sensing"} a particular colour.
-
 Add a `repeat until`{:class="block3control"} block to the bottom of your script, and place a `not`{:class="block3operators"} block inside it.
-
 
 ![image of gift sprite](images/gift-gift2-sprite.png)
 
@@ -30,6 +25,10 @@ end
 --- /task ---
 
 --- task ---
+
+A `Sensing`{:class="block3sensing"} block that detects if a sprite is touching a particular colour would return **true** when the sprite touches that colour.
+
+You can use the `not`{:class="block3operators"} operator to detect if a sprite is `not`{:class="block3operators"} `touching`{:class="block3sensing"} a particular colour.
 
 Add in a `touching color`{:class="block3sensing"} block, and use the **Colour picker** tool to select the colour of the ribbon.
 
