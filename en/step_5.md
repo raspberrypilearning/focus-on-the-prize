@@ -68,7 +68,7 @@ Create a new `variable`{:class="block3variables"} called `finished`. Add blocks 
 when flag clicked
 set [speed v] to (1)
 + set [finished v] to [false]
-go to x: (150) y: (0)
+go to x: (-150) y: (0)
 switch costume to [gift-a v]
 wait (1) seconds
 switch costume to [Crystal-a v]
