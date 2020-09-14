@@ -18,7 +18,7 @@ switch costume to [Crystal-a v]
 
 --- task ---
 
-Click on the **Gift2** sprite and add blocks so that it `says`{:class="block3looks"} `No!` and then `hides`{:class="block3looks"}.
+Click on the **Gift2** sprite and add blocks so that it `says`{:class="block3looks"} `No!`. Change the value of the `says`{:class="block3looks"} block to `1` second. Add a `hide`{:class="block3looks"} block so the sprite then disappears.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
