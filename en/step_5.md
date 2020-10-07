@@ -18,7 +18,7 @@ switch costume to [Crystal-a v]
 
 --- task ---
 
-Click on the **Gift2** sprite and add blocks so that it `says`{:class="block3looks"} `No!` and then `hides`{:class="block3looks"}.
+Click on the **Gift2** sprite and add blocks so that it `says`{:class="block3looks"} `No!`. Change the value of the `say`{:class="block3looks"} block to `1` second. Add a `hide`{:class="block3looks"} block so the sprite then disappears.
 
 ![image of gift2 sprite](images/gift2-sprite.png)
 
@@ -68,7 +68,7 @@ Create a new `variable`{:class="block3variables"} called `finished`. Add blocks 
 when flag clicked
 set [speed v] to (1)
 + set [finished v] to [false]
-go to x: (150) y: (0)
+go to x: (-150) y: (0)
 switch costume to [gift-a v]
 wait (1) seconds
 switch costume to [Crystal-a v]

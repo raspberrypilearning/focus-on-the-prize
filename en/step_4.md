@@ -76,7 +76,7 @@ In the code for the **Gift** sprite, you can add code to `set`{:class="block3var
 ```blocks3
 when flag clicked
 + set [speed v] to (1)
-go to x: (150) y: (0)
+go to x: (-150) y: (0)
 switch costume to [gift-a v]
 wait (1) seconds
 switch costume to [Crystal-a v]

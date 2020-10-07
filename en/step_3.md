@@ -10,7 +10,7 @@ First, use a `go to x: y:`{:class="block3motion"} block to give the gift a start
 
 ```blocks3
 when flag clicked
-+ go to x: (150) y: (0)
++ go to x: (-150) y: (0)
 switch costume to [gift-a v]
 wait (1) seconds
 switch costume to [Crystal-a v]
@@ -44,7 +44,7 @@ Add a `wait`{:class="block3control"} block, then add the `broadcast move and wai
 
 ```blocks3
 when flag clicked
-go to x: (150) y: (0)
+go to x: (-150) y: (0)
 switch costume to [gift-a v]
 wait (1) seconds
 switch costume to [Crystal-a v]

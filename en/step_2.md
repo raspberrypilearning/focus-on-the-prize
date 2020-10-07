@@ -6,9 +6,9 @@ In this step, you will add a gift box that will briefly show what is hidden insi
 
 Open a new Scratch project.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target=”_blank”}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** open a new project in the Scratch offline editor. If you need to, you can [download and install Scratch here](http://rpf.io/scratchoff){:target=”_blank”}.
+**Offline:** open a new project in the Scratch offline editor. If you need to, you can [download and install Scratch here](http://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
