@@ -1,4 +1,4 @@
-## Challenge: add more distractions!
+## Add more
 
 Can you add more distractions to your game to make it even harder to keep your eye on the correct gift box?
 
