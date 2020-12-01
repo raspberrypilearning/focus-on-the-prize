@@ -1,4 +1,4 @@
-## Add an empty box
+## Create an empty box
 
 In this step, you will add another gift box, but this one will be empty! It will also move around in random directions.
 
