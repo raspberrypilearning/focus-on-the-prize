@@ -9,11 +9,10 @@ steps:
   - title: Introduction
   - title: Add a gift in a box
   - title: Move the gift box
-  - title: Add an empty box
-  - title: Add the answers
+  - title: Create an empty box
+  - title: Reveal the answers
   - title: Add more gifts  
-  - title: Add a distraction
-  - title: "Challenge: add more distractions!"
-    challenge: true
+  - title: Make a distraction
+  - title: Add more
   - title: Share
-  - title: "What next?"
+  - title: What next?

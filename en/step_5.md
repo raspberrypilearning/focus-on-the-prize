@@ -1,4 +1,4 @@
-## Add the answers
+## Reveal the answers
 
 In this step, you will add code so that the player can click on a gift box to see if it has the crystal inside it.
 

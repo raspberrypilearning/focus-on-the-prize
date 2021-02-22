@@ -1,4 +1,4 @@
-## Add a distraction
+## Make a distraction
 
 To finish the game, you can add a distraction, to try to stop the player keeping their eyes on the gift box.
 
