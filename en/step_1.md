@@ -28,7 +28,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"}.)
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"}.)
 
 --- /collapse ---
 
@@ -48,7 +48,7 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can [download the completed project here](http://rpf.io/p/en/focus-on-the-prize-get){:target="_blank"}.
+You can [download the completed project here](https://rpf.io/p/en/focus-on-the-prize-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/focus-on-the-prize/print){:target="_blank"}.
 
