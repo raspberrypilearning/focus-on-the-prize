@@ -7,6 +7,7 @@ It is possible that the gift boxes will stop on top of each other, which might m
 You need to add the scripts shown below to **both** the **Gift** and **Gift2** sprites.
 
 --- task ---
+
 You can use the `not`{:class="block3operators"} operator to turn **true** into **false**, or **false** into **true**.
 
 Add a `repeat until`{:class="block3control"} block to the bottom of your script, and place a `not`{:class="block3operators"} block inside it.

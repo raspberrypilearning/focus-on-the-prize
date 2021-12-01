@@ -5,6 +5,7 @@ In this project, you will make a game that will help you to improve your concent
 ### What you will make
 
 --- no-print ---
+
 Watch the box with the diamond inside as it moves around. When the boxes stop moving, click on the one that you think has the diamond inside it and see if you got it right.
 
 
@@ -15,13 +16,16 @@ Watch the box with the diamond inside as it moves around. When the boxes stop mo
 --- /no-print ---
 
 --- print-only ---
+
 ![Complete project](images/showcase_static.png)
+
 --- /print-only ---
 
 --- collapse ---
 ---
 title: What you will need
 ---
+
 ### Hardware
 
 + A computer or tablet capable of running Scratch
