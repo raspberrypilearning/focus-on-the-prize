@@ -102,6 +102,7 @@ Test your code again, to make sure that the boxes now do not stop at the edge of
 Now that the code for the **Gift** and **Gift2** sprites is complete, you can duplicate the **Gift2** sprite to add a third box to the game.
 
 --- task ---
+
 Right-click on the **Gift2** sprite in the Sprite list and select **duplicate** in the drop-down menu.
 
 ![image showing drop down menu with duplicate selected](images/duplicate-sprite.png)
