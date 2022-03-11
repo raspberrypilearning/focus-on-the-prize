@@ -1,18 +1,18 @@
-## Add more gifts
+## अधिक भेटवस्तू जोडा
 
-In this step, you will make sure that the gifts are not touching each other, or the edge of the screen, when they stop moving. Then, you will add a third gift.
+या टप्प्यात, भेटवस्तू हलणे थांबवतात तेव्हा एकमेकांना किंवा स्क्रीनच्या काठाला स्पर्श करत नाहीत याची खात्री कराल. त्यानंतर, तुम्ही तिसरी भेटवस्तू जोडाल.
 
-It is possible that the gift boxes will stop on top of each other, which might make it difficult to see which gift box is which. To stop this from happening, you can detect if they are touching. The colour of the gift box's ribbon can be used to detect if two boxes are touching each other.
+भेटवस्तू बॉक्स एकमेकांच्या वर थांबतील हे शक्य आहे, ज्यामुळे भेटवस्तू बॉक्स कोणता आहे हे बघणे कठीण होऊ शकते. हे होण्यापासून थांबवण्यासाठी, ते स्पर्श करत आहेत का ते तुम्ही शोधू शकता. दोन बॉक्स एकमेकांना स्पर्श करत आहेत का हे ओळखण्यासाठी भेटवस्तू बॉक्स रिबीनच्या रंगाचा वापर केल्या जाऊ शकतो.
 
-You need to add the scripts shown below to **both** the **Gift** and **Gift2** sprites.
+तुम्ही दाखवलेले स्प्राईट **दोन्ही** **Gift** आणि **Gift2** स्प्राईटच्या खाली जोडायला हवे.
 
 --- task ---
 
-You can use the `not`{:class="block3operators"} operator to turn **true** into **false**, or **false** into **true**.
+**true** हा **false** मध्ये, किंवा **false** हा **true** मध्ये बदलण्यासाठी `not`{:class="block3operators"} ऑपरेटरचा तुम्ही वापर करू शकता.
 
-Add a `repeat until`{:class="block3control"} block to the bottom of your script, and place a `not`{:class="block3operators"} block inside it.
+तुमच्या स्क्रीप्टच्या खाली `repeat until`{:class="block3control"} ब्लॉक जोडा, आणि त्याच्या आत `not`{:class="block3operators"} ब्लॉक जोडा.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift स्प्राईटची इमेज](images/gift-gift2-sprite.png)
 
 
 ```blocks3
@@ -27,19 +27,19 @@ end
 
 --- task ---
 
-A `Sensing`{:class="block3sensing"} block that detects if a sprite is touching a particular colour would return **true** when the sprite touches that colour.
+`Sensing`{:class="block3sensing"} ब्लॉक जो स्प्राईट विशीष्ट रंगाला स्पर्श करत आहे का ते ओळखतो तो जेव्हा स्प्राईट त्या रंगाला स्पर्श करतो तेव्हा **true** मध्ये बदलेल.
 
-You can use the `not`{:class="block3operators"} operator to detect if a sprite is `not`{:class="block3operators"} `touching`{:class="block3sensing"} a particular colour.
+तुम्ही `not`{:class="block3operators"} ऑपरेटरचा स्प्राईट विशीष्ट रंगाला `touching`{:class="block3sensing"} `not`{:class="block3operators"} हे ओळखण्यासाठी वापर करू शकता.
 
-Add in a `touching color`{:class="block3sensing"} block, and use the **Colour picker** tool to select the colour of the ribbon.
+`touching color`{:class="block3sensing"} ब्लॉक जोडा, आणि रिबीनचा रंग निवडण्यासाठी **Colour picker** टूल वापरा.
 
 --- no-print ---
 
-![animated gif showing the colour picker being used to select the colour of the gift ribbon](images/color-picker.gif)
+![भेटवस्तू रिबीनचा रंग निवडण्यासाठी कलर पीकर वापरला जात असल्याचे दाखवणारा ऍनिमेटेड gif](images/color-picker.gif)
 
 --- /no-print ---
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift स्प्राईटची इमेज](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -53,9 +53,9 @@ end
 
 --- task ---
 
-Within the `repeat until`{:class="block3control"} block, add another block to keep the box moving to a random position.
+`repeat until`{:class="block3control"} ब्लॉक मध्ये, कुठल्याही ठिकाणी बॉक्स हलवत ठेवण्यासाठी दुसरा ब्लॉक जोडा.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift स्प्राईटची इमेज](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -70,17 +70,17 @@ repeat until <not <touching color (#F9C780) ?>>
 
 --- task ---
 
-Click on the green flag a few times, and make sure that the boxes always move to an empty area of the Stage before they stop moving.
+हिरव्या झेंड्यावर काही वेळा क्लिक करा आणि बॉक्स हलणे थांबण्यापूर्वी ते नेहमी Stage रिकाम्या भागात हलतील याची खात्री करा.
 
 --- /task ---
 
-It would also be nice if the boxes did not stop when they are off the edge of the Stage. You can use an `and`{:class="block3operators"} operator to test for two different conditions.
+Stage काठावरुन बॉक्स थांबले नाहीत तर ते देखील छान होईल. दोन वेगवेगळ्या स्थितींच्या चाचणीसाठी तुम्ही `and`{:class="block3operators"} ऑपरेटर वापरू शकता.
 
 --- task ---
 
-Add an `and`{:class="block3operators"} block into the `repeat until`{:class="block3control"} condition. Then, add in a `not`{:class="block3operators"} block and a `touching edge`{:class="block3sensing"} block to go with the `not`{:class="block3operators"} `touching color`{:class="block3sensing"} blocks.
+`and`{:class="block3operators"} ब्लॉक `repeat until`{:class="block3control"} स्थितीला जोडा. त्यानंतर, `not`{:class="block3operators"} ब्लॉकमध्ये जोडा आणि `touching edge`{:class="block3sensing"} ब्लॉक`not`{:class="block3operators"} `touching color`{:class="block3sensing"} ब्लॉक्सला न्या.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift स्प्राईटची इमेज](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -95,25 +95,25 @@ glide (speed) secs to [random position v]
 
 --- task ---
 
-Test your code again, to make sure that the boxes now do not stop at the edge of the Stage.
+बॉक्स आता Stage कडेला थांबत नाही याची खात्री करण्यासाठी तुमचा कोड पुन्हा तपासा.
 
 --- /task ---
 
-Now that the code for the **Gift** and **Gift2** sprites is complete, you can duplicate the **Gift2** sprite to add a third box to the game.
+आता **Gift** आणि **Gift2** स्प्राईट पूर्ण झाले असल्याने, तुम्ही गेम मध्ये तीसरा बॉक्स जोडण्यासाठी **Gift2** स्प्राईट डुप्लीकेट करू शकता.
 
 --- task ---
 
-Right-click on the **Gift2** sprite in the Sprite list and select **duplicate** in the drop-down menu.
+स्प्राईट लीस्टमधील **Gift2** स्प्राईटवर राईट-क्लिक करा आणि ड्रॉप-डाऊन मेनूमध्ये **suplicate** निवडा.
 
-![image showing drop down menu with duplicate selected](images/duplicate-sprite.png)
+![duplicate निवडलेले ड्रॉप डाउन मेनू दर्शवणारी इमेज](images/duplicate-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-All the code has been duplicated as well, but you need to give the **Gift3** sprite a different starting position.
+सर्व कोड व्यवस्थित डुप्लीकेट झाले, परंतु तुम्ही **Gift3** स्प्राईटला वेगवेगळ्या सुरूवात स्थिती देण्याची आवश्यकता आहे.
 
-![image of gift3 sprite](images/gift3-sprite.png)
+![gift3 स्प्राईटची इमेज](images/gift3-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,7 +124,7 @@ show
 
 --- task ---
 
-To test your game again, click on the green flag.
+तुमचा गेम पुन्हा तपासण्यासाठी, हिरव्या झेंड्यावर क्लिक करा.
 
 --- /task ---
 
