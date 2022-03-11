@@ -1,82 +1,82 @@
-## Add a gift in a box
+## बॉक्स में गिफ्ट (उपहार) जोड़ें
 
-In this step, you will add a gift box that will briefly show what is hidden inside it.
+इस चरण में, आप एक गिफ्ट बॉक्स जोड़ेंगे जो कुछ समय के लिए दिखाएगा कि इसके अंदर क्या छिपा है।
 
 --- task ---
 
-Open a new Scratch project.
+एक नया Scratch प्रोजेक्ट खोलें।
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**ऑनलाइन:** [rpf.io/scratch-new](http://rpf.io/scratch-new){: target = "_ blank"} पर एक नया ऑनलाइन Scratch प्रोजेक्ट खोलें।
 
-**Offline:** open a new project in the Scratch offline editor. If you need to, you can [download and install Scratch here](http://rpf.io/scratchoff){:target="_blank"}.
+**ऑफ़लाइन:** ऑफ़लाइन एडिटर में एक नया स्क्रॅच प्रोजेक्ट खोलें। यदि आपको ज़रूरत है तो, आप [यहां Scratch डाउनलोड और इंस्टॉल ](http://rpf.io/scratchoff){:target="_blank"} कर सकते हैं
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch cat** sprite. To do this, click on the **Rubbish bin** icon in the corner of the image in the Sprite list.
+**Scratch cat** स्प्राइट हटाएं। ऐसा करने के लिए, स्प्राइट सूची में छवि के कोने में **Rubbish bin** पर क्लिक करें
 
-![image showing Scratch cat icon, with trashcan in the top right hand corner](images/delete-cat.png)
-
---- /task ---
-
---- task ---
-
-Click on **Choose a Sprite** to search for a new sprite to add to your game.
-
-![image showing the choose sprite icon with expanded options](images/choose-sprite.png)
+![scratch cat आइकन दिखाने वाली छवि, ऊपरी दाएं कोने में ट्रैश कैन के साथ](images/delete-cat.png)
 
 --- /task ---
 
 --- task ---
 
-Search for the **Gift** sprite, then add it to your game.
+अपने खेल में जोड़ने के लिए एक नया स्प्राइट खोजने के लिए **Choose a Sprite** पर क्लिक करें।
 
-![image showing the search bar with "gift" typed in and the gift sprite below it](images/add-gift.png)
-
---- /task ---
-
---- task ---
-
-The sprite is a little small at the moment. To increase the sprite's size, you can either use the `set size to`{:class="block3looks"} block, as you may have done in other projects, or you can change the sprite's **properties**.
-
-Set the sprite's size to `150` (percent).
-
-![image showing properties for the sprite with the size set to 150 percent](images/set-size.png)
+![विस्तारित विकल्पों के साथ चुनिंदा स्प्राइट आइकन दिखाने वाली छवि](images/choose-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Go to the **Costumes** tab to look at the costumes for the **Gift** sprite. You will see two costumes called **gift-a** and **gift-b**.
+**Gift** स्प्राइट खोजें, फिर उसे अपने खेल में जोड़ें।
 
-![image showing the costumes tab for the gift sprite, along with the two default costumes](images/gift-costumes.png)
-
-Click on the **Choose a Costume** icon to add a new costume to the sprite.
-
-![image showing the expanded choose a costume icon](images/choose-costume.png)
+![छवि खोज बार दिखा रही है जिसमें "gift" टाइप किया गया है और उसके नीचे उपहार स्प्राइट है](images/add-gift.png)
 
 --- /task ---
 
 --- task ---
 
-Choose the gift that you would like to put inside the gift box. In this example, we will use the **Crystal-a** costume.
+स्प्राइट इस समय थोड़ा छोटा है। स्प्राइट के आकार को बढ़ाने के लिए, आप या तो `set size to`{:class="block3looks"} ब्लॉक में उपयोग कर सकते हैं, जैसा कि आपने अन्य प्रोजेक्ट्स में किया होगा, या आप स्प्राइट के **properties**को बदल सकते हैं।
 
-![image showing the search for a crystal costume, with Crystal-a and Crystal-b shown](images/choose-crystal-costume.png)
+स्प्राइट का आकार `150` (प्रतिशत) पर सेट करें।
+
+![150 प्रतिशत पर सेट आकार के साथ स्प्राइट के गुण दिखाने वाली छवि](images/set-size.png)
 
 --- /task ---
 
 --- task ---
 
-Switch back to the **Code** tab so that you can begin to work on the program.
+**Gift** स्प्राइट के लिए पोशाकें देखने के लिए **Costumes** पर क्लिक करें आपको दो पोशाकें दिखाई देंगी जिन्हें **gift-a** और **gift-b** कहा जाएगा।
 
-![image showing code tab selected](images/code-tab.png)
+![दो डिफ़ॉल्ट परिधानों के साथ उपहार स्प्राइट के लिए पोशाक टैब दिखाने वाली छवि](images/gift-costumes.png)
 
-Add some blocks to make the starting costume for the **Gift** sprite `switch`{:class="block3looks"} to `Crystal-a`{:class="block3looks"} and then back to `gift-a`{:class="block3looks"} again. Use `wait`{:class="block3control"} blocks in between the costume changes.
+स्प्राइट के लिए एक नया पोशाक जोड़ने के लिए **Choose a Costume** आइकन पर क्लिक करें।
 
-The `wait`{:class="block3control"} blocks give the player a chance to see the costume changes.
+![विस्तारित एक पोशाक चुनें आइकन दिखाने वाली छवि](images/choose-costume.png)
 
-![image of the gift sprite](images/gift-sprite.png)
+--- /task ---
+
+--- task ---
+
+वह उपहार चुनें जिसे आप गिफ्ट बॉक्स के अंदर रखना चाहते हैं। इस उदाहरण में, हम **Crystal-a** पोशाक का उपयोग करेंगे।
+
+![Crystal-a और Crystal-b के साथ क्रिस्टल पोशाक की खोज दिखाने वाली छवि](images/choose-crystal-costume.png)
+
+--- /task ---
+
+--- task ---
+
+**Code** टैब पर वापस जाएं ताकि आप प्रोग्राम पर काम करना शुरू कर सकें।
+
+![चयनित Code टैब दिखती हुई छवि](images/code-tab.png)
+
+**Gift** स्प्राइट के लिए शुरुआती पोशाक बनाने के लिए कुछ ब्लॉक जोड़ें `Crystal-a`{:class="block3looks"} ब्लॉक को `switch`{:class="block3looks"} करें और फिर से `gift-a`{: class="block3looks"} ब्लॉक पर। पोशाक परिवर्तन के बीच में `wait`{:class="block3control"} ब्लॉक का उपयोग करें।
+
+`wait`{:class="block3control"} ब्लॉक खिलाड़ी को पोशाक परिवर्तन देखने का मौका देते हैं।
+
+![गिफ्ट स्प्राइट की छवि](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -91,7 +91,7 @@ switch costume to [gift-a v]
 
 --- task ---
 
-Click on the green flag, and make sure that your gift box changes costumes.
+हरे झंडे पर क्लिक करें, और सुनिश्चित करें कि आपका गिफ्ट बॉक्स वेशभूषा बदलता है।
 
 --- /task ---
 
