@@ -1,22 +1,22 @@
-## Make a distraction
+## विकर्षण तयार करा
 
-To finish the game, you can add a distraction, to try to stop the player keeping their eyes on the gift box.
+गेम पूर्ण करण्यासाठी, तुम्ही प्लेयरला भेटवस्तू बॉक्सवर नजर ठेवून थांबवण्याचा प्रयत्न करण्यासाठी, एक विकर्षण जोडू शकता.
 
 --- task ---
 
-Add a new sprite to your game. You can choose any sprite you like, but in this example, we will use the **Duck** sprite.
+तुमच्या गेमला नवीन स्प्राईट जोडा. तुम्हाला आवडणारा कोणताही स्प्राईट तुम्ही निवडू शकता, परंतु या उदाहरणात, आम्ही**Duck** स्प्राईट वापरू.
 
-![image of duck sprite](images/duck-sprite.png)
+![duck स्प्राईटची इमेज](images/duck-sprite.png)
 
 --- /task ---
 
-When the game begins, the duck should be hidden, and it should only start to move after the boxes have started moving. It is also useful to bring the duck to the front layer, so that it moves over the top of the boxes.
+गेम चालू झाल्यावर, बदक लपायला हवे, आणि तो बॉक्सने हलणे चालू केल्यावरच केवळ हलणे चालू करायला हवे. बदकांना पुढच्या थरावर आणणे देखील उपयुक्त आहे, जेणेकरून ते बॉक्सच्या वरच्या बाजूस फिरतील.
 
 --- task ---
 
-Add the following blocks to the **Duck** sprite.
+**Duck** स्प्राईटला खालील ब्लॉक्स जोडा.
 
-![image of duck sprite](images/duck-sprite.png)
+![duck स्प्राईटची इमेज](images/duck-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -29,9 +29,9 @@ wait (4) seconds
 
 --- task ---
 
-Next, the **Duck** sprite should `wait`{:class="block3control"}  a `random`{:class="block3operators"} number of seconds, then `glide`{:class="block3motion"} across the Stage and `hide`{:class="block3looks"}. This can keep happening until the game has finished.
+पुढे, **Duck** स्प्राईटने `wait`{:class="block3control"}  करायला हवी `random`{:class="block3operators"} सेकंद संख्येची, त्यानंतर स्टेज भोवती `glide`{:class="block3motion"} करायला हवे आणि `hide`{:class="block3looks"} हवे. गेम संपेपर्यंत हे घडत राहू शकते.
 
-![image of duck sprite](images/duck-sprite.png)
+![duck स्प्राईटची इमेज](images/duck-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -49,7 +49,7 @@ hide
 
 --- task ---
 
-Test your game and see if you can keep track of the gift box with a distracting duck flying across the Stage.
+तुमच्या गेमची चाचणी घ्या आणि Stage वर उडणाऱ्या विकर्षीत करणार्‍या बदकासह तुम्ही भेटवस्तू बॉक्सचा मागोवा ठेवू शकता का ते पहा.
 
 --- /task ---
 
