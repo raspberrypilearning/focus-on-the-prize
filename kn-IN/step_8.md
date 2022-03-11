@@ -1,8 +1,8 @@
-## Add more
+## ಇನ್ನಷ್ಟು ಸೇರಿಸಿ
 
-Can you add more distractions to your game to make it even harder to keep your eye on the correct gift box?
+ಸರಿಯಾದ ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆಯ ಮೇಲೆ ನೀವು ಕಣ್ಣಿಡುವುದು ಇನ್ನೂ ಕಷ್ಟವಾಗುವಂತೆ ಮಾಡಲು ನಿಮ್ಮ ಆಟಕ್ಕೆ ನೀವು ಇನ್ನಷ್ಟು ಗಮನ ಭಂಗ ಮಾಡುವವುಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?
 
-Think about some of the things that you have learned in other Scratch projects that might make the game even harder, such as changing costumes, adding graphic effects, changing sizes, and moving and turning.
+ಆಟವನ್ನು ಇನ್ನೂ ಕಷ್ಟಕರ ಮಾಡಲು ಉಳಿದ Scratch ಪ್ರಾಜೆಕ್ಟ್‌ಗಳಲ್ಲಿ ತಿಳಿದುಕೊಂಡಿರುವ ಸಂಗತಿಗಳಾದ ಉಡುಪು ಬದಲಾಯಿಸುವುದು, ಗ್ರಾಫಿಕ್‌ ಪರಿಣಾಮಗಳನ್ನು ಸೇರಿಸುವುದು, ಗಾತ್ರಗಳನ್ನು ಬದಲಾಯಿಸುವುದು ಮತ್ತು ಚಲಿಸುವುದು ಹಾಗೂ ತಿರುಗಿಸುವುದು ಇವುಗಳ ಬಗೆಗೆ ಯೋಚನೆ ಮಾಡಿ.
 
 --- no-print ---
 
