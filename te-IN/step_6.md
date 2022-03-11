@@ -1,18 +1,18 @@
-## Add more gifts
+## మరిన్ని బహుమతులు జోడించండి
 
-In this step, you will make sure that the gifts are not touching each other, or the edge of the screen, when they stop moving. Then, you will add a third gift.
+ఈ దశలో, బహుమతుల కదలిక ఆగినప్పుడు అవి ఒకదానికొకటి లేదా స్క్రీన్ అంచుకు తాకకుండా, మీరు నిర్ధారించుకుంటారు. అప్పుడు, మీరు మూడవ బహుమతిని జోడిస్తారు.
 
-It is possible that the gift boxes will stop on top of each other, which might make it difficult to see which gift box is which. To stop this from happening, you can detect if they are touching. The colour of the gift box's ribbon can be used to detect if two boxes are touching each other.
+గిఫ్ట్ బాక్సులు ఒకదానిపై ఒకటి ఆగిపోయే అవకాశం ఉంది, ఇది ఏ గిఫ్ట్ బాక్సు ఏది అని చూడటం కష్టతరం చేస్తుంది. ఇది జరగకుండా ఆపడానికి, అవి తాకినట్లయితే మీరు గుర్తించవచ్చు. రెండు బాక్సులు ఒకదానికొకటి తాకుతున్నాయో లేదో తెలుసుకోవడానికి గిఫ్ట్ బాక్సు యొక్క రిబ్బన్ రంగును ఉపయోగించవచ్చు.
 
-You need to add the scripts shown below to **both** the **Gift** and **Gift2** sprites.
+మీరు దిగువ చూపిన స్క్రిప్ట్‌లను **both** **Gift** మరియు **Gift2** sprite లకు జోడించాలి.
 
 --- task ---
 
-You can use the `not`{:class="block3operators"} operator to turn **true** into **false**, or **false** into **true**.
+మీరు `not`{:class="block3operators"} ఆపరేటర్‌ని ఉపయోగించి **true** ని **false** గా లేదా **false** ని **true** గా మార్చవచ్చు.
 
-Add a `repeat until`{:class="block3control"} block to the bottom of your script, and place a `not`{:class="block3operators"} block inside it.
+ఒక `repeat until`{: class = "block3control"} బ్లాకు ను స్క్రిప్టు అడుగున జోడించండి, మరియు ఒక `not` {class = "block3operators"} బ్లాకుని దాని లోపల జోడించండి.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-gift2-sprite.png)
 
 
 ```blocks3
@@ -27,19 +27,19 @@ end
 
 --- task ---
 
-A `Sensing`{:class="block3sensing"} block that detects if a sprite is touching a particular colour would return **true** when the sprite touches that colour.
+ఒక sprite ఒక నిర్దిష్ట రంగును తాకినట్లయితే `Sensing`{:class="block3sensing"} బ్లాక్ కనిపెడుతుంది మరియు sprite ఆ రంగును తాకినప్పుడు **true** ని రిటర్న్ చేస్తుంది.
 
-You can use the `not`{:class="block3operators"} operator to detect if a sprite is `not`{:class="block3operators"} `touching`{:class="block3sensing"} a particular colour.
+మీరు `not`{:class="block3operators"} ఆపరేటర్‌ని ఉపయోగించి, ఒక sprite ఒక నిర్దిష్ట రంగుని `touching`{:class="block3sensing"} ` not `{:class="block3operators"} అని తెలుసుకోవచ్చు.
 
-Add in a `touching color`{:class="block3sensing"} block, and use the **Colour picker** tool to select the colour of the ribbon.
+`touching color`{:class="block3sensing"} బ్లాక్‌ను జోడించి, రిబ్బన్ రంగును ఎంచుకోవడానికి **Colour picker** టూల్ ను ఉపయోగించవచ్చు.
 
 --- no-print ---
 
-![animated gif showing the colour picker being used to select the colour of the gift ribbon](images/color-picker.gif)
+![గిఫ్ట్ రిబ్బన్ యొక్క రంగును ఎంచుకోవడానికి ఉపయోగించే రంగు ఎంపికను చూపుతున్న యానిమేటెడ్ gif](images/color-picker.gif)
 
 --- /no-print ---
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -53,9 +53,9 @@ end
 
 --- task ---
 
-Within the `repeat until`{:class="block3control"} block, add another block to keep the box moving to a random position.
+`repeat until`{:class="block3control"} బ్లాక్ లోపల, బాక్స్‌ను యాదృచ్ఛిక స్థానానికి తరలించడానికి మరొక బ్లాక్‌ని జోడించండి.,.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -70,17 +70,17 @@ repeat until <not <touching color (#F9C780) ?>>
 
 --- task ---
 
-Click on the green flag a few times, and make sure that the boxes always move to an empty area of the Stage before they stop moving.
+ఆకుపచ్చ జెండాపై కొన్ని సార్లు క్లిక్ చేయండి మరియు బాక్స్‌లు కదలకుండా ఆపే ముందు ఎల్లప్పుడూ Stage లో ఖాళీ ప్రాంతానికి తరలించేలా చూసుకోండి.
 
 --- /task ---
 
-It would also be nice if the boxes did not stop when they are off the edge of the Stage. You can use an `and`{:class="block3operators"} operator to test for two different conditions.
+బాక్సులను Stage అంచుల వద్ద ఆపివేయకుండా ఉంటే కూడా మంచిది. రెండు విభిన్న కండిషన్ లను పరీక్షించటం కోసం, మీరు `and`{:class="block3operators"} ఆపరేటర్‌ను ఉపయోగించవచ్చు.
 
 --- task ---
 
-Add an `and`{:class="block3operators"} block into the `repeat until`{:class="block3control"} condition. Then, add in a `not`{:class="block3operators"} block and a `touching edge`{:class="block3sensing"} block to go with the `not`{:class="block3operators"} `touching color`{:class="block3sensing"} blocks.
+`repeat until`{:class="block3control"} కండిషన్ లోనికి, ఒక `and`{:class="block3operators"} బ్లాక్‌ను జోడించండి. ఆపై, `not`{:class="block3operators"} బ్లాకు మరియు `touching edge`{:class="block3sensing"} బ్లాక్‌లను, `not`{:class="block3operators"} బ్లాక్ మరియు `touching color `{:class="block3sensing"} బ్లాక్‌లతో కలిపి జోడించండి.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -95,25 +95,25 @@ glide (speed) secs to [random position v]
 
 --- task ---
 
-Test your code again, to make sure that the boxes now do not stop at the edge of the Stage.
+ఇప్పుడు బాక్స్‌లు Stage అంచు వద్ద ఆగకుండా చూసుకోవడానికి మీ కోడ్‌ని మళ్లీ పరీక్షించండి.
 
 --- /task ---
 
-Now that the code for the **Gift** and **Gift2** sprites is complete, you can duplicate the **Gift2** sprite to add a third box to the game.
+ఇప్పుడు **Gift** మరియు **Gift2** sprite ల కోడ్ పూర్తయింది, **Gift 2** sprite ని నకలు చేసి, మూడవ బాక్సుని, గేమ్ కి జోడించవచ్చు.
 
 --- task ---
 
-Right-click on the **Gift2** sprite in the Sprite list and select **duplicate** in the drop-down menu.
+Sprite జాబితాలో **Gift2**sprite పై రైట్-క్లిక్ చేసి, డ్రాప్-డౌన్ మెనులో **duplicate** ను సెలెక్ట్ చేసుకోండి.
 
-![image showing drop down menu with duplicate selected](images/duplicate-sprite.png)
+![ఎంపిక కాబడిన డూప్లికేట్‌ తో డ్రాప్ డౌన్ మెనుని చూపుతున్న చిత్రం](images/duplicate-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-All the code has been duplicated as well, but you need to give the **Gift3** sprite a different starting position.
+అంతా కోడ్, డూప్లికేట్ చేయబడింది, కానీ మీరు **Gift3** spriteకి వేరే ప్రారంభ స్థానం ఇవ్వాలి.
 
-![image of gift3 sprite](images/gift3-sprite.png)
+![gift3 sprite యొక్క చిత్రం](images/gift3-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,7 +124,7 @@ show
 
 --- task ---
 
-To test your game again, click on the green flag.
+మీ గేమ్‌ని మళ్లీ పరీక్షించడానికి, ఆకుపచ్చ జెండాపై క్లిక్ చేయండి.
 
 --- /task ---
 
