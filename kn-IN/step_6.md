@@ -1,18 +1,18 @@
-## Add more gifts
+## ಇನ್ನಷ್ಟು ಉಡುಗೊರೆಗಳನ್ನು ಸೇರಿಸಿ
 
-In this step, you will make sure that the gifts are not touching each other, or the edge of the screen, when they stop moving. Then, you will add a third gift.
+ಈ ಹಂತದಲ್ಲಿ, ಉಡುಗೊರೆಗಳು ಚಲಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಿದಾಗ ಅವು ಪರಸ್ಪರ ಸ್ಪರ್ಶಿಸುವುದಿಲ್ಲ ಅಥವಾ ಪರದೆಯ ಅಂಚನ್ನು ಸ್ಪರ್ಶಿಸುವುದಿಲ್ಲ ಎಂದು ನೀವು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳುತ್ತೀರಿ. ನಂತರ, ನೀವು ಮೂರನೆಯ ಉಡುಗೊರೆಯನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
-It is possible that the gift boxes will stop on top of each other, which might make it difficult to see which gift box is which. To stop this from happening, you can detect if they are touching. The colour of the gift box's ribbon can be used to detect if two boxes are touching each other.
+ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆಗಳು ಒಂದರ ಮೇಲೊಂದರಂತೆ ನಿಲ್ಲುವ ಸಾಧ್ಯತೆಯಿದೆ, ಇದರಿಂದ ಯಾವ ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆ ಯಾವುದು ಎಂದು ನೋಡಲು ಕಷ್ಟವಾಗಬಹುದು. ಇದು ಆಗದಂತೆ ಮಾಡಲು, ಅವುಗಳು ಸ್ಪರ್ಶಿಸುತ್ತಿವೆಯೇ ಎಂದು ನೀವು ಪತ್ತೆ ಮಾಡಬಹುದು. ಎರಡು ಪೆಟ್ಟಿಗೆಗಳು ಪರಸ್ಪರ ಸ್ಪರ್ಶಿಸುತ್ತಿವೆಯೇ ಎಂದು ಪತ್ತೆ ಮಾಡಲು ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆಯ ರಿಬ್ಬನ್‌ ಬಣ್ಣವನ್ನು ಉಪಯೋಗಿಸಬಹುದು.
 
-You need to add the scripts shown below to **both** the **Gift** and **Gift2** sprites.
+ನೀವು ಈ ಕೆಳಗೆ ತೋರಿಸಿರುವ ಬರಹಗಳನ್ನು **Gift** ಮತ್ತು **Gift2** **ಎರಡೂ** ಸ್ಪ್ರೈಟ್‌ಗಳಿಗೂ ಸೇರಿಸಬೇಕು.
 
 --- task ---
 
-You can use the `not`{:class="block3operators"} operator to turn **true** into **false**, or **false** into **true**.
+ನೀವು `not`{:class="block3operators"} ಆಪರೇಟರ್‌ನ್ನು **ಸರಿ** ಯನ್ನು **ತಪ್ಪು**, ಅಥವಾ **ತಪ್ಪು** ಅನ್ನು **ಸರಿ** ಆಗಿ ಪರಿವರ್ತಿಸಲು ಉಪಯೋಗಿಸಬಹುದು.
 
-Add a `repeat until`{:class="block3control"} block to the bottom of your script, and place a `not`{:class="block3operators"} block inside it.
+`repeat until`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ನಿಮ್ಮ ಬರಹದ ಕೆಳಗೆ ಸೇರಿಸಿ ಮತ್ತು ಅದರೊಳಗೆ `not`{:class="block3operators"} ಬ್ಲಾಕ್‌ ಇರಿಸಿ.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift-gift2-sprite.png)
 
 
 ```blocks3
@@ -27,19 +27,19 @@ end
 
 --- task ---
 
-A `Sensing`{:class="block3sensing"} block that detects if a sprite is touching a particular colour would return **true** when the sprite touches that colour.
+`Sensing`{:class="block3sensing"} ಸ್ಪ್ರೈಟ್‌ ಒಂದು ನಿರ್ದಿಷ್ಟ ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪತ್ತೆ ಮಾಡುವ ಬ್ಲಾಕ್‌, ಸ್ಪ್ರೈಟ್‌ ಆ ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸಿದಾಗ **ಸರಿ** ಮರಳಿಸುತ್ತದೆ.
 
-You can use the `not`{:class="block3operators"} operator to detect if a sprite is `not`{:class="block3operators"} `touching`{:class="block3sensing"} a particular colour.
+ನೀವು `not`{:class="block3operators"} ಆಪರೇಟರ್‌ನ್ನು ಸ್ಪ್ರೈಟ್‌ ನಿರ್ದಿಷ್ಟ ಬಣ್ಣವನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪತ್ತೆ ಮಾಡಲು `not`{:class="block3operators"} `touching`{:class="block3sensing"} ಉಪಯೋಗಿಸಬಹುದು.
 
-Add in a `touching color`{:class="block3sensing"} block, and use the **Colour picker** tool to select the colour of the ribbon.
+`touching color`{:class="block3sensing"}ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ, ಮತ್ತು **Colour picker** ಟೂಲ್‌ನ್ನು ರಿಬ್ಬನ್‌ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಲು ಉಪಯೋಗಿಸಿ.
 
 --- no-print ---
 
-![animated gif showing the colour picker being used to select the colour of the gift ribbon](images/color-picker.gif)
+![ಉಡುಗೊರೆಯ ರಿಬ್ಬನ್‌ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕಲರ್‌ ಪಿಕ್ಕರ್ ಉಪಯೋಗಿಸುತ್ತಿರುವುದನ್ನು ತೋರಿಸುತ್ತಿರುವ ಅನಿಮೇಟೆಡ್‌ ಚಿತ್ರ](images/color-picker.gif)
 
 --- /no-print ---
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -53,9 +53,9 @@ end
 
 --- task ---
 
-Within the `repeat until`{:class="block3control"} block, add another block to keep the box moving to a random position.
+`repeat until`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಗೆ, ಪೆಟ್ಟಿಗೆಯು ಯಾದೃಚ್ಛಿಕ ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸುತ್ತಲೇ ಇರುವಂತೆ ಮಾಡಲು ಇನ್ನೊಂದು ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -70,17 +70,17 @@ repeat until <not <touching color (#F9C780) ?>>
 
 --- task ---
 
-Click on the green flag a few times, and make sure that the boxes always move to an empty area of the Stage before they stop moving.
+ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕೆಲವು ಬಾರಿ ಕ್ಲಿಕ್‌ ಮಾಡಿ, ಪೆಟ್ಟಿಗೆಗಳು ಚಲಿಸುವುದನ್ನು ನಿಲ್ಲಿಸುವ ಮೊಸಲು ಯಾವಾಗಲೂ ವೇದಿಕೆಯ ಮೇಲೆ ಖಾಲಿ ಪ್ರದೇಶಕ್ಕೆ ಅವುಗಳು ಚಲಿಸುತ್ತವೆ ಎಂಬುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 --- /task ---
 
-It would also be nice if the boxes did not stop when they are off the edge of the Stage. You can use an `and`{:class="block3operators"} operator to test for two different conditions.
+ಪೆಟ್ಟಿಗೆಗಳು ವೇದಿಕೆಯ ಅಂಚಿಗೆ ತಲುಪಿದಾಗ ನಿಲ್ಲದೇ ಇದ್ದರೆ ಚೆನ್ನಾಗಿರುತ್ತದೆ. ನೀವು ಎರಡು ಬೇರೆ ಬೇರೆ ಷರತ್ತುಗಳನ್ನು ಪರೀಕ್ಷೆ ಮಾಡಲು `and`{:class="block3operators"} ಆಪರೇಟರ್‌ ಉಪಯೋಗಿಸಬಹುದು.
 
 --- task ---
 
-Add an `and`{:class="block3operators"} block into the `repeat until`{:class="block3control"} condition. Then, add in a `not`{:class="block3operators"} block and a `touching edge`{:class="block3sensing"} block to go with the `not`{:class="block3operators"} `touching color`{:class="block3sensing"} blocks.
+`and`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು `repeat until`{:class="block3control"} ಷರತ್ತಿನೊಳಗೆ ಸೇರಿಸಿ. ನಂತರ, `not`{:class="block3operators"} ಬ್ಲಾಕ್‌ ಮತ್ತು `touching edge`{:class="block3sensing"} ಬ್ಲಾಕ್‌ನ್ನು `not`{:class="block3operators"} `touching color`{:class="block3sensing"} ಬ್ಲಾಕ್‌ಗಳೊಂದಿಗೆ ಹೋಗಲು ಸೇರಿಸಿ.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -95,25 +95,25 @@ glide (speed) secs to [random position v]
 
 --- task ---
 
-Test your code again, to make sure that the boxes now do not stop at the edge of the Stage.
+ಬಾಕ್ಸ್‌ಗಳು ಈಗ Stage ಅಂಚಿನಲ್ಲಿ ನಿಲ್ಲುವುದಿಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನಿಮ್ಮ ಕೋಡ್‌ನ್ನು ಮತ್ತೊಮ್ಮೆ ಪರೀಕ್ಷಿಸಿ.
 
 --- /task ---
 
-Now that the code for the **Gift** and **Gift2** sprites is complete, you can duplicate the **Gift2** sprite to add a third box to the game.
+ಈಗ **Gift** ಮತ್ತು **Gift2** ಸ್ಪ್ರೈಟ್‌ಗಳ ಕೋಡ್‌ ಪೂರ್ಣವಾಗಿರುವುದರಿಂದ, ನೀವು ಆಟಕ್ನೆ ಮೂರನೆಯ ಪೆಟ್ಟಿಗೆಯನ್ನು ಸೇರಿಸಲು **Gift2** ಸ್ಪ್ರೈಟ್ ನಕಲು ಮಾಡಬಹುದು.
 
 --- task ---
 
-Right-click on the **Gift2** sprite in the Sprite list and select **duplicate** in the drop-down menu.
+Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿ **Gift2** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ರೈಟ್‌-ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಡ್ರಾಪ್-ಡೌನ್‌ ಮೆನುನಲ್ಲಿ **duplicate** ಆಯ್ಕೆ ಮಾಡಿ.
 
-![image showing drop down menu with duplicate selected](images/duplicate-sprite.png)
+![ಡುಪ್ಲಿಕೇಟ್‌ ಆಯ್ಕೆಯೊಂದಿಗೆ ಡ್ರಾಪ್‌ ಡೌನ್‌ ಮೆನು ತೋರಿಸುತ್ತಿರುವ ಚಿತ್ರ](images/duplicate-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-All the code has been duplicated as well, but you need to give the **Gift3** sprite a different starting position.
+ಎಲ್ಲಾ ಕೋಡ್‌ಗಳನ್ನೂ ನಕಲು ಮಾಡಲಾಗಿದೆ, ಆದರೆ ನೀವು **Gift3** ಸ್ಪ್ರೈಟ್‌ಗೆ ಬೇರೆ ಪ್ರಾರಂಭಿಕ ಸ್ಥಾನ ಕೊಡಬೇಕು.
 
-![image of gift3 sprite](images/gift3-sprite.png)
+![ಉಡುಗೊರೆ3 ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift3-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -124,7 +124,7 @@ show
 
 --- task ---
 
-To test your game again, click on the green flag.
+ನಿಮ್ಮ ಆಟವನ್ನು ಮತ್ತೆ ಪರೀಕ್ಷೆ ಮಾಡಲು, ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 --- /task ---
 
