@@ -1,12 +1,12 @@
-## Move the gift box
+## भेटवस्तू बॉक्स हलवा
 
-Now that you have a box with a gift inside it, you need to make it move around the screen.
+आता तुमच्याकडे आत भेटवस्तू असलेला बॉक्स आहे, तुम्हाला तो स्क्रीनभोवती फिरवावा लागेल.
 
 --- task ---
 
-First, use a `go to x: y:`{:class="block3motion"} block to give the gift a starting position to the left of the Stage.
+भेटवस्तू सुरूवातीच्या ठिकाणापासून स्टेजच्या डावीकडे देण्यासाठी `go to x: y:`{:class="block3motion"} ब्लॉक प्रथम वापरा.
 
-![image of the gift sprite](images/gift-sprite.png)
+![gift स्प्राईटची इमेज](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -20,27 +20,27 @@ switch costume to [gift-a v]
 
 --- /task ---
 
-**Broadcasts** are messages that are sent by a sprite for some or all other sprites to receive.
+**Broadcasts** हे असे मेसेज आहेत जे स्प्राईटकडून कोणालातरी किंवा इतर स्प्राईटला मिळण्यासाठी पाठवले जातात.
 
-Broadcasts are very useful for making sure that events in your program all happen simultaneously.
+तुमच्या प्रोग्राममधील सर्व इव्हेंट्स सोबतच घडतील याची खात्री करण्यासाठी broadcasts फार उपयुक्त आहेत.
 
-In the `Events`{:class="block3events"} blocks menu, select the `broadcast message1 and wait`{:class="block3events"} block.
+`Events`{:class="block3events"} ब्लॉक्स मेनूमध्ये, `broadcast message1 and wait`{:class="block3events"} ब्लॉक निवडा.
 
 --- task ---
 
-Create a new `broadcast`{:class="block3events"} to start moving. Call your new broadcast `move`.
+हलणे चालू करण्यासाठी नवीन `broadcast`{:class="block3events"} तयार करा. तुमच्या नवीन broadcast `move` ला कॉल करा.
 
-![image showing broadcast block with the name options expanded](images/broadcastAndWait.png)
+![विस्तारित नाव पर्यायांसह broadcast ब्लॉक दर्शवणारी इमेज](images/broadcastAndWait.png)
 
-![image showing the dialogue box for creating a new broadcast, with the name "move" typed in](images/new-message.png)
+!["move" नाव टाईप केलेल्यासह नवीन broadcast तयार करण्यासाठी डायलॉग बॉक्स दाखवणारी इमेज](images/new-message.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `wait`{:class="block3control"} block, then add the `broadcast move and wait`{:class="block3events"} block.
+`wait`{:class="block3control"} ब्लॉक जोडा, त्यानंतर `broadcast move and wait`{:class="block3events"} ब्लॉक जोडा.
 
-![image of the gift sprite](images/gift-sprite.png)
+![gift स्प्राईटची इमेज](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,9 +58,9 @@ switch costume to [gift-a v]
 
 --- task ---
 
-When the sprite `receives`{:class="block3events"} the `move`{:class="block3events"} broadcast, the sprite can start to `glide`{:class="block3motion"} in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10` times.
+जेव्हा स्प्राईटला `move`{:class="block3events"} broadcast `receives`{:class="block3events"} झाल्यावर, sprite कोणत्याही दिशेत `glide`{:class="block3motion"} करणे चालू करू शकतात. तुम्ही हे `10` वेळा घडण्यासाठी `repeat`{:class="block3control"} ब्लॉक वापरू शकता.
 
-![image of the gift sprite](images/gift-sprite.png)
+![gift स्प्राईटची इमेज](images/gift-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -72,11 +72,11 @@ glide (1) secs to [random position v]
 
 --- task ---
 
-Click on the green flag, and check that your sprite starts moving randomly, after the costume changes.
+हिरव्या झेंड्यावर क्लिक करा, आणि कॉश्चुम बदलल्यानंतर तुमचा स्प्राईट कोठेही हलणे चालू करतो का ते तपासा.
 
 --- no-print ---
 
-![animate gif showing the gift moving randomly around the screen](images/random-motion.gif)
+![भेटवस्तू स्क्रीनभोवती कोठेही फिरत असल्याचे दाखवणारे ऍनिमेट gif](images/random-motion.gif)
 
 --- /no-print ---
 
