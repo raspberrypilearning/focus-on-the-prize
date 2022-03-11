@@ -1,29 +1,31 @@
 ---
-title: Focus on the prize
+title: पुरस्कार पर ध्यान दें
 hero_image: images/focus-banner.png
-description: Improve your concentration by following the gift box with the diamond inside it while the other gift boxes and surprise sprites try to distract you
+description: हीरे के साथ उपहार बॉक्स का अनुसरण करके अपनी एकाग्रता में सुधार करें, जबकि अन्य उपहार बॉक्स और सरप्राइज स्प्राइट आपको विचलित करने का प्रयास करते हैं
 version: 4
 listed: true
 copyedit: true
-last_tested: "2020-09-01"
+last_tested: '2020-09-01'
 steps:
   - 
-    title: Introduction
+    title: परिचय
+    completion: engaged
   - 
-    title: Add a gift in a box
+    title: बॉक्स में गिफ्ट (उपहार) जोड़ें
   - 
-    title: Move the gift box
+    title: गिफ्ट(उपहार) बॉक्स को हिलाएँ
   - 
-    title: Create an empty box
+    title: एक खाली बॉक्स बनाएं
   - 
-    title: Reveal the answers
+    title: उत्तरों को दिखाएँ
   - 
-    title: Add more gifts
+    title: और उपहार जोड़ें
   - 
-    title: Make a distraction
+    title: ध्यान भटकाने के लिए कुछ बनाएँ
+    completion: internal
   - 
-    title: Add more
+    title: और जोड़ें
   - 
-    title: Share
+    title: साझा करें
   - 
-    title: What next?
+    title: आगे क्या?
