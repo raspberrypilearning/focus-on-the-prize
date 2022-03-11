@@ -1,12 +1,12 @@
-## Move the gift box
+## ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆಯನ್ನು ಚಲಿಸಿ
 
-Now that you have a box with a gift inside it, you need to make it move around the screen.
+ಈಗ ನಿಮ್ಮ ಬಳಿ ಅದರೊಳಗೆ ಉಡುಗೊರೆ ಹೊಂದಿರುವ ಪೆಟ್ಟಿಗೆ ಹೊಂದಿರುವಿರಿ, ನೀವು ಅದನ್ನು ಪರದೆಯ ಸುತ್ತಲೂ ಚಲಿಸುವಂತೆ ಮಾಡಬೇಕು.
 
 --- task ---
 
-First, use a `go to x: y:`{:class="block3motion"} block to give the gift a starting position to the left of the Stage.
+ಮೊದಲಿಗೆ, Stage ಎಡಭಾಗದಲ್ಲಿ ಉಡುಗೊರೆಗೆ ಪ್ರಾರಂಭಿಕ ಸ್ಥಾನವನ್ನು ಕೊಡಲು `go to x: y:`{:class="block3motion"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸಿ.
 
-![image of the gift sprite](images/gift-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್ ಚಿತ್ರ](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -20,27 +20,27 @@ switch costume to [gift-a v]
 
 --- /task ---
 
-**Broadcasts** are messages that are sent by a sprite for some or all other sprites to receive.
+**Broadcasts** ಎಂದರೆ ಕೆಲವು ಅಥವಾ ಇತರೇ ಎಲ್ಲಾ ಸ್ಪ್ರೈಟ್‌ಗಳಿಗೆ ಸ್ವೀಕರಿಸಲು ಸ್ಪ್ರೈಟ್‌ ಕಳಿಸುವ ಸಂದೇಶಗಳು.
 
-Broadcasts are very useful for making sure that events in your program all happen simultaneously.
+ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ನಲ್ಲಿರವ ಎಲ್ಲಾ ಘಟನೆಗಳು ಏಕಕಾಲದಲ್ಲಿ ಸಂಭವಿಸುತ್ತವೆ ಎಂದು ಖಚಿತಪಡಿಸುಕೊಳ್ಳಲು ಬ್ರಾಡ್‌ಕ್ಯಾಸ್ಟ್‌ಗಳು ತುಂಬಾ ಉಪಯುಕ್ತವಾಗುತ್ತವೆ.
 
-In the `Events`{:class="block3events"} blocks menu, select the `broadcast message1 and wait`{:class="block3events"} block.
+`Events`{:class="block3events"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಲ್ಲಿ, `broadcast message1 ಮತ್ತು wait`{:class="block3events"} ಬ್ಲಾಕ್‌ ಆಯ್ಕೆಮಾಡಿಕೊಳ್ಳಿ.
 
 --- task ---
 
-Create a new `broadcast`{:class="block3events"} to start moving. Call your new broadcast `move`.
+ಚಲಿಸುವುದನ್ನು ಪ್ರಾರಂಭಿಸಲು ಹೊಸ `broadcast`{:class="block3events"} ರಚಿಸಿ. ಹೊಸ ಬ್ರಾಡ್‌ಕಾಸ್ಟ್‌ `move` ಆಮಂತ್ರಿಸಿ.
 
-![image showing broadcast block with the name options expanded](images/broadcastAndWait.png)
+![ವಿಸ್ತರಿತ name ಆಯ್ಕೆಗಳೊಂದಿಗೆ broadcast ಬ್ಲಾಕ್‌ ತೋರಿಸುವ ಚಿತ್ರ](images/broadcastAndWait.png)
 
-![image showing the dialogue box for creating a new broadcast, with the name "move" typed in](images/new-message.png)
+!["move" ಹೆಸರು ಟೈಪ್‌ ಆಗಿರುವುದರೊಂದಿಗಿನ ಹೊಸ ಬ್ರಾಡ್‌ಕಾಸ್ಟ್‌ ರಚಿಸುವ ಡೈಲಾಗ್‌ ಬಾಕ್ಸ್‌ ತೋರಿಸುವ ಚಿತ್ರ](images/new-message.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `wait`{:class="block3control"} block, then add the `broadcast move and wait`{:class="block3events"} block.
+`wait`{:class="block3control"} ಬ್ಲಾಕ್ ಸೇರಿಸಿ, ನಂತರ `broadcast move and wait`{:class="block3events"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ.
 
-![image of the gift sprite](images/gift-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್ ಚಿತ್ರ](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,9 +58,9 @@ switch costume to [gift-a v]
 
 --- task ---
 
-When the sprite `receives`{:class="block3events"} the `move`{:class="block3events"} broadcast, the sprite can start to `glide`{:class="block3motion"} in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10` times.
+ಸ್ಪ್ರೈಟ್ `move`{:class="block3events"} ಬ್ರಾಡ್‌ಕಾಸ್ಟ್‌ `receives`{:class="block3events"}ಪಡೆದಾಗ, ಸ್ಪ್ರೈಟ್‌ `glide`{:class="block3motion"} ಯಾದೃಚ್ಛಿಕ ದಿಕ್ಕುಗಳಲ್ಲಿ ಜಾರಲು ಪ್ರಾರಂಭಿಸಬಹುದು. ನೀವು ಇದು `10` ಬಾರಿ ಪುನರಾವರ್ತನೆಯಾಗುವಂತೆ ಮಾಡಲು `repeat`{:class="block3control"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸಬಹುದು.
 
-![image of the gift sprite](images/gift-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್ ಚಿತ್ರ](images/gift-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -72,11 +72,11 @@ glide (1) secs to [random position v]
 
 --- task ---
 
-Click on the green flag, and check that your sprite starts moving randomly, after the costume changes.
+ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ, ಮತ್ತು ಉಡುಪು ಬದಲಾವಣೆಗಳಾದ ನಂತರ, ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ ಯಾದೃಚ್ಛಿಕವಾಗಿ ಚಲಿಸಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.
 
 --- no-print ---
 
-![animate gif showing the gift moving randomly around the screen](images/random-motion.gif)
+![ಪರದೆಯ ಸುತ್ತಲೂ ಉಡುಗೊರೆ ಯಾದೃಚ್ಛಿಕವಾಗಿ ಚಲಿಸುತ್ತಿರುವುದನ್ನು ತೋರಿಸುವ ಅನಿಮೇಟ್‌ ಜಿಐಎಫ್](images/random-motion.gif)
 
 --- /no-print ---
 
