@@ -1,82 +1,82 @@
-## Add a gift in a box
+## ఒక పెట్టెలో బహుమతిని జోడించండి
 
-In this step, you will add a gift box that will briefly show what is hidden inside it.
+ఈ దశలో, మీరు గిఫ్ట్ బాక్సును జోడిస్తారు, దానిలో దాగి ఉన్న వాటిని అది క్లుప్తంగా చూపుతుంది.
 
 --- task ---
 
-Open a new Scratch project.
+కొత్త Scratch ప్రాజెక్ట్‌ను తెరవండి.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** కొత్త ఆన్‌లైన్ Scratch ప్రాజెక్ట్‌ను [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"} వద్ద తెరవండి.
 
-**Offline:** open a new project in the Scratch offline editor. If you need to, you can [download and install Scratch here](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** Scratch ఆఫ్‌లైన్ ఎడిటర్‌లో కొత్త ప్రాజెక్ట్‌ను తెరవండి. మీకు అవసరమైతే, మీరు [ఇక్కడ Scratch ను డౌన్ లోడ్ చేసి ఇన్‌స్టాల్ చేయవచ్చు](http://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch cat** sprite. To do this, click on the **Rubbish bin** icon in the corner of the image in the Sprite list.
+**Scratch cat** sprite ను తొలగించండి. దీన్ని చేయడానికి, స్ప్రైట్ జాబితాలోని చిత్రం యొక్క మూలలో ఉన్న **Rubbish bin** మీద క్లిక్ చేయండి.
 
-![image showing Scratch cat icon, with trashcan in the top right hand corner](images/delete-cat.png)
-
---- /task ---
-
---- task ---
-
-Click on **Choose a Sprite** to search for a new sprite to add to your game.
-
-![image showing the choose sprite icon with expanded options](images/choose-sprite.png)
+![ఎగువ కుడి చేతి మూలలో ట్రాష్‌కాన్‌తో Scratch cat చిహ్నాన్ని చూపుతున్న చిత్రం](images/delete-cat.png)
 
 --- /task ---
 
 --- task ---
 
-Search for the **Gift** sprite, then add it to your game.
+మీ గేమ్ కు జోడించడానికి కావల్సిన ఒక కొత్త sprite కోసం శోధించడానికి **Choose a Sprite** మీద క్లిక్ చేయండీ.
 
-![image showing the search bar with "gift" typed in and the gift sprite below it](images/add-gift.png)
-
---- /task ---
-
---- task ---
-
-The sprite is a little small at the moment. To increase the sprite's size, you can either use the `set size to`{:class="block3looks"} block, as you may have done in other projects, or you can change the sprite's **properties**.
-
-Set the sprite's size to `150` (percent).
-
-![image showing properties for the sprite with the size set to 150 percent](images/set-size.png)
+![విస్తరించిన ఎంపికలతో choose sprite చిహ్నాన్ని చూపుతున్న చిత్రం](images/choose-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Go to the **Costumes** tab to look at the costumes for the **Gift** sprite. You will see two costumes called **gift-a** and **gift-b**.
+**Gift** sprite కోసం శోధించండి, ఆపై దాన్ని మీ గేమ్‌కు జోడించండి.
 
-![image showing the costumes tab for the gift sprite, along with the two default costumes](images/gift-costumes.png)
-
-Click on the **Choose a Costume** icon to add a new costume to the sprite.
-
-![image showing the expanded choose a costume icon](images/choose-costume.png)
+!["gift" టైప్ చేయబడిన సెర్చ్ బార్ మరియు దాని క్రింద Gift spriteని చూపుతున్న చిత్రం](images/add-gift.png)
 
 --- /task ---
 
 --- task ---
 
-Choose the gift that you would like to put inside the gift box. In this example, we will use the **Crystal-a** costume.
+sprite ప్రస్తుతం కొద్దిగా చిన్నది. Sprite యొక్క పరిమాణాన్ని పెంచడానికి, మీరు ఇతర ప్రాజెక్టులలో చేసినట్టు `set size to`{:class="block3looks"} బ్లాక్‌ని ఉపయోగించవచ్చు లేదా మీరు sprite యొక్క **లక్షణాలను**. ను మార్చవచ్చు.
 
-![image showing the search for a crystal costume, with Crystal-a and Crystal-b shown](images/choose-crystal-costume.png)
+Sprite పరిమాణాన్ని `150` (శాతం) కి సెట్ చేయండి.
+
+![150 శాతానికి సెట్ చేయబడిన పరిమాణంతో sprite లక్షణాలను చూపుతున్న చిత్రం](images/set-size.png)
 
 --- /task ---
 
 --- task ---
 
-Switch back to the **Code** tab so that you can begin to work on the program.
+**Gift** sprite కోసం costume లను చూడటానికి **Costumes** ట్యాబ్‌పై క్లిక్ చేయండి. **gift-a** మరియు **gift-b** అనే రెండు costume లను మీరు చూస్తారు.
 
-![image showing code tab selected](images/code-tab.png)
+![రెండు డిఫాల్ట్ costume లతో పాటు gift sprite కోసం costume ట్యాబ్‌ను చూపుతున్న చిత్రం](images/gift-costumes.png)
 
-Add some blocks to make the starting costume for the **Gift** sprite `switch`{:class="block3looks"} to `Crystal-a`{:class="block3looks"} and then back to `gift-a`{:class="block3looks"} again. Use `wait`{:class="block3control"} blocks in between the costume changes.
+Sprite కు కొత్త costume జోడించడానికి **Choose a Costume** చిహ్నం పై క్లిక్ చేయండి.
 
-The `wait`{:class="block3control"} blocks give the player a chance to see the costume changes.
+![విస్తరించిన choose a costume చిహ్నాన్ని చూపుతున్న చిత్రం](images/choose-costume.png)
 
-![image of the gift sprite](images/gift-sprite.png)
+--- /task ---
+
+--- task ---
+
+మీరు బహుమతి పెట్టెలో ఉంచాలనుకుంటున్న బహుమతిని ఎంచుకోండి. ఈ ఉదాహరణలో, మనము **Crystal-a** costume ను ఉపయోగిస్తాము.
+
+![crystal costume కోసం శోధనను చూపుతున్న చిత్రం, Crystal-a మరియు Crystal-b చూపబడింది](images/choose-crystal-costume.png)
+
+--- /task ---
+
+--- task ---
+
+**Code** ట్యాబ్‌కు తిరిగి మారండి, తద్వారా మీరు ప్రోగ్రామ్‌లో పని చేయడం ప్రారంభించవచ్చు.
+
+![కోడ్ ట్యాబ్‌ని చూపుతున్న చిత్రం ఎంచుకోబడింది](images/code-tab.png)
+
+**Gift** sprite కు ఆరంభ costume చేయడానికి కొన్ని బ్లాక్స్ జోడించండి `crystal-a`{: class= "block3looks"} నుంచి `switch`{: class = "block3looks"} అయి ఆపై తిరిగి `gift-a`{:class="block3looks"} కు. `wait`{:class="block3control"} బ్లాక్‌లను costume మార్పుల మధ్య ఉపయోగించండి.
+
+`wait`{:class="block3control"} బ్లాక్‌లు ప్లేయర్ కు costume మార్పులను చూసే అవకాశాన్ని అందిస్తాయి.
+
+![gift sprite యొక్క చిత్రం](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -91,7 +91,7 @@ switch costume to [gift-a v]
 
 --- task ---
 
-Click on the green flag, and make sure that your gift box changes costumes.
+ఆకుపచ్చ జెండాపై క్లిక్ చేసి, మీ గిఫ్ట్ బాక్సు costume లను మార్చినట్లు నిర్ధారించుకోండి.
 
 --- /task ---
 
