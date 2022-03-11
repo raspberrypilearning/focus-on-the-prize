@@ -1,10 +1,10 @@
-## What next?
+## తర్వాత ఏంటి?
 
-In this project, you have:
-+ Used a `not`{:class="block3operators"} block to move gift boxes until they are `not`{:class="block3operators"} `touching`{:class="block3sensing"} each other or the edge of the Stage
-+ Used a `repeat`{:class="block3control"} loop to move gift boxes a set number of times
-+ Used a `broadcast`{:class="block3events"} block to tell all the gift boxes when to move
+ఈ ప్రాజెక్ట్‌లో, మీరు కలిగి ఉన్నవి:
++ `not`{:class="block3operators"} బ్లాక్ ని ఉపయోగించి, గిఫ్ట్ బాక్సులు, ఒకదానికొకటి, `touching`{:class="block3sensing"} `not`{:class="block3operators"} ఉన్నంత వరకు మరియు Stage అంచులను చేరే వరకు గిఫ్ట్ బాక్సులను కదిలించండి
++ గిఫ్ట్ బాక్సులను అనుకొన్నన్ని సార్లు, కదిలించడానికి, `repeat`{:class="block3control"} లూప్ ఉపయోగించబడింది
++ గిఫ్ట్ బాక్సులకు, ఎప్పుడు కదిలాలో చెప్పడానికి, `broadcast`{:class="block3events"} బ్లాక్‌ని ఉపయోగించాము
 
-If you have been following the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway, you might like to explore Scratch some more. Try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch).
+మీరు [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) మార్గాన్ని అనుసరిస్తుంటే, మీరు Scratch ను మరికొంత అన్వేషించాలనుకోవచ్చు. [ఈ ప్రాజెక్ట్‌లలో ](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) దేనినైనా ప్రయత్నించండి.
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+మీరు ప్రాజెక్ట్‌ను ఆస్వాదించారా? మీరు ఏదైనా పొరపాటును గుర్తించారా? **Send feedback** బటన్‌ను క్లిక్ చేసి, మాకు తెలియజేయండి!
