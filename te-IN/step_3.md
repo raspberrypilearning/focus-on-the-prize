@@ -1,12 +1,12 @@
-## Move the gift box
+## బహుమతి పెట్టెను తరలించండి
 
-Now that you have a box with a gift inside it, you need to make it move around the screen.
+ఇప్పుడు మీరు దానిలో గిఫ్ట్ తో కూడిన బాక్సును కలిగి ఉన్నందున, మీరు దానిని స్క్రీన్ చుట్టూ కదిలేలా చేయాలి.
 
 --- task ---
 
-First, use a `go to x: y:`{:class="block3motion"} block to give the gift a starting position to the left of the Stage.
+మొదటి, `go to x: y:`{: class = "block3motion"} బ్లాక్ ను ఉపయోగించి గిఫ్ట్ కు Stage మీద ఎడమ వైపు ప్రారంభ స్థానం ఇవ్వండి.
 
-![image of the gift sprite](images/gift-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -20,27 +20,27 @@ switch costume to [gift-a v]
 
 --- /task ---
 
-**Broadcasts** are messages that are sent by a sprite for some or all other sprites to receive.
+**Broadcasts** కొన్ని లేదా అన్ని ఇతర sprite లు స్వీకరించడానికి ఒక sprite ద్వారా పంపబడే సందేశాలు.
 
-Broadcasts are very useful for making sure that events in your program all happen simultaneously.
+మీ ప్రోగ్రామ్‌లోని ఈవెంట్‌లు అన్నీ ఏక కాలంలో పూర్తవడానికి broadcasts ఉపయోగపడతాయి.
 
-In the `Events`{:class="block3events"} blocks menu, select the `broadcast message1 and wait`{:class="block3events"} block.
+`Events`{:class="block3events"} బ్లాక్‌ల మెనులో, `broadcast message1 and wait `{:class="block3events"} బ్లాక్‌ని సెలెక్ట్ చేయండి.
 
 --- task ---
 
-Create a new `broadcast`{:class="block3events"} to start moving. Call your new broadcast `move`.
+తరలించడం ప్రారంభించడానికి కొత్త `broadcast`{:class="block3events"}ని సృష్టించండి. మీ కొత్త broadcast ని `move` అని పిలవండి.
 
-![image showing broadcast block with the name options expanded](images/broadcastAndWait.png)
+![పేరు ఎంపికలు విస్తరించిన broadcast బ్లాక్‌ని చూపుతున్న చిత్రం](images/broadcastAndWait.png)
 
-![image showing the dialogue box for creating a new broadcast, with the name "move" typed in](images/new-message.png)
+!["move" పేరుతో టైప్ చేసిన కొత్త broadcast ని సృష్టించడానికి డైలాగ్ బాక్స్‌ను చూపుతున్న చిత్రం](images/new-message.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `wait`{:class="block3control"} block, then add the `broadcast move and wait`{:class="block3events"} block.
+`wait`{:class="block3control"} బ్లాక్‌ను జోడించి, ఆపై `broadcast move and wait`{:class="block3events"} బ్లాక్‌ని జోడించండి.
 
-![image of the gift sprite](images/gift-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -58,9 +58,9 @@ switch costume to [gift-a v]
 
 --- task ---
 
-When the sprite `receives`{:class="block3events"} the `move`{:class="block3events"} broadcast, the sprite can start to `glide`{:class="block3motion"} in random directions. You can use a `repeat`{:class="block3control"} block to make this happen `10` times.
+Sprite, `move`{:class="block3events"} broadcast ని `receives `{:class="block3events"} చేసినప్పుడు sprite విభిన్న దిశలలో, `glide`{:class="block3motion"} అవడం ప్రారంభమవుతుంది. దీనిని `10` సార్లు పునరావృతం చేయడానికి, `repeat`{:class="block3control"} బ్లాక్‌ని ఉపయోగించవచ్చు.
 
-![image of the gift sprite](images/gift-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -72,11 +72,11 @@ glide (1) secs to [random position v]
 
 --- task ---
 
-Click on the green flag, and check that your sprite starts moving randomly, after the costume changes.
+ఆకుపచ్చ జెండాపై క్లిక్ చేసి, costume మారిన తర్వాత మీ sprite యాదృచ్ఛికంగా కదలడం ప్రారంభిస్తుందో లేదో తనిఖీ చేయండి.
 
 --- no-print ---
 
-![animate gif showing the gift moving randomly around the screen](images/random-motion.gif)
+![యానిమేట్ gif గిఫ్ట్, స్క్రీన్ చుట్టూ యాదృచ్ఛికంగా కదులుతున్నట్లు చూపుతుంది](images/random-motion.gif)
 
 --- /no-print ---
 
