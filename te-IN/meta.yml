@@ -1,29 +1,31 @@
 ---
-title: Focus on the prize
+title: బహుమతిపై దృష్టి పెట్టండి
 hero_image: images/focus-banner.png
-description: Improve your concentration by following the gift box with the diamond inside it while the other gift boxes and surprise sprites try to distract you
+description: ఇతర గిఫ్ట్ బాక్స్‌లు మరియు ఆశ్చర్య పరిచే sprite లు మీ దృష్టి మరల్చడానికి ప్రయత్నిస్తున్నప్పటికీ, దాని లోపల వజ్రం ఉన్న బహుమతి పెట్టెను అనుసరించడం ద్వారా మీ ఏకాగ్రతను మెరుగుపరచండి
 version: 4
 listed: true
 copyedit: true
-last_tested: "2020-09-01"
+last_tested: '2020-09-01'
 steps:
   - 
-    title: Introduction
+    title: పరిచయం
+    completion: engaged
   - 
-    title: Add a gift in a box
+    title: ఒక పెట్టెలో బహుమతిని జోడించండి
   - 
-    title: Move the gift box
+    title: బహుమతి పెట్టెను తరలించండి
   - 
-    title: Create an empty box
+    title: ఖాళీ పెట్టెను సృష్టించండి
   - 
-    title: Reveal the answers
+    title: సమాధానాలు వెల్లడించండి
   - 
-    title: Add more gifts
+    title: మరిన్ని బహుమతులు జోడించండి
   - 
-    title: Make a distraction
+    title: ధ్యాస మరల్చండి
+    completion: internal
   - 
-    title: Add more
+    title: మరిన్ని జోడించండి
   - 
-    title: Share
+    title: షేర్ చేయండి
   - 
-    title: What next?
+    title: తర్వాత ఏంటి?
