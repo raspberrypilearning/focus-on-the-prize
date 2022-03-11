@@ -1,12 +1,12 @@
-## Introduction
+## ಪರಿಚಯ
 
-In this project, you will make a game that will help you to improve your concentration. You will have to watch really carefully to try to follow the gift box with the diamond inside, while the other boxes and sprites try to distract you. Playing computer games can be a good way to relax and learn new skills — just make sure that you balance gaming with other activities.
+ಈ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ, ನಿಮ್ಮ ಏಕಾಗ್ರತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯವಾಗುವ ಆಟವನ್ನು ನೀವು ಮಾಡುತ್ತೀರಿ. ಉಳಿದ ಪೆಟ್ಟಿಗೆಗಳು ಮತ್ತು ಸ್ಪ್ರೈಟ್‌ಗಳು ನಿಮ್ಮ ಗಮನ ಬೇರೆಡೆ ಸೆಳೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಾಗ, ನೀವು ವಜ್ರವಿರುವ ಉಡುಗೊರೆಯ ಪೆಟ್ಟಿಗೆಯನ್ನು ಅನುಸರಿಸಲು ನಿಜವಾಗಿಯೂ ಎಚ್ಚರಿಕೆಯಿಂದ ವೀಕ್ಷಿಸಬೇಕು. ಕಂಪ್ಯೂಟರ್ ಆಟಗಳನ್ನು ಆಡುವುದು ವಿಶ್ರಾಂತಿ ಪಡೆಯಲು ಮತ್ತು ಹೊಸ ಕೌಶಲ್ಯಗಳನ್ನು ಕಲಿಯಲು ಉತ್ತಮ ಮಾರ್ಗವಾಗಿದೆ - ನೀವು ಇತರ ಚಟುವಟಿಕೆಗಳೊಂದಿಗೆ ಆಟವಾಡುವುದನ್ನು ಸಮತೋಲನದಲ್ಲಿರಿಸಿಕೊಳ್ಳುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
-### What you will make
+### ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
 
 --- no-print ---
 
-Watch the box with the diamond inside as it moves around. When the boxes stop moving, click on the one that you think has the diamond inside it and see if you got it right.
+ವಜ್ರವಿರುವ ಪೆಟ್ಟಿಗೆಯು ಸುತ್ತಲೂ ಚಲಿಸುತ್ತಿರುವಾಗ ಅದನ್ನು ವೀಕ್ಷಿಸಿ. ಪೆಟ್ಟಿಗೆಗಳು ಚಲಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಿದಾಗ, ಯಾವುದರೊಳಗೆ ವಜ್ರವಿದೆ ಎಂದು ನಿಮಗನಿಸುತ್ತದೆಯೋ ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನೀವು ಮಾಡಿರುವುದು ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ನೋಡಿ.
 
 
 <div class="scratch-preview">
@@ -17,43 +17,43 @@ Watch the box with the diamond inside as it moves around. When the boxes stop mo
 
 --- print-only ---
 
-![Complete project](images/showcase_static.png)
+![ಸಂಪೂರ್ಣ ಪ್ರಾಜೆಕ್ಟ್](images/showcase_static.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: ನಿಮಗೆ ಬೇಕಾಗಿರುವುದು
 ---
 
-### Hardware
+### ಯಂತ್ರಾಂಶ (ಹಾರ್ಡ್ವೇರ್)
 
-+ A computer or tablet capable of running Scratch
++ Scratch ರನ್‌ ಮಾಡುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಒಂದು ಕಂಪ್ಯೂಟರ್‌ ಅಥವಾ ಟ್ಯಾಬ್ಲೆಟ್
 
-### Software
+### ಸಾಫ್ಟ್ವೇರ್
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"}.)
++ Scratch 3 (ಆನ್‌ಲೈನ್‌ [ ](https://rpf.io/scratchon) {:target = "_blank"} ಅಥವಾ [ ಆಫ್‌ಲೈನ್ ](https://rpf.io/scratchoff) {:target = "_blank"}.)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: ನೀವು ಏನು ಕಲಿಯುವಿರಿ
 ---
 
-- How to use `broadcasts`{:class="block3events"} to communicate between sprites
-- How to detect when two sprites `touch`{:class="block3sensing"} each other
-- How to use `and`{:class="block3operators"} and `not`{:class="block3operators"} Boolean operators
+- ಸ್ಪ್ರೈಟ್‌ಗಳ ನಡುವೆ ಸಂವಹನ ಮಾಡಿಸಲು `broadcasts`{:class="block3events"} ಹೇಗೆ ಉಪಯೋಗಿಸುವುದು
+- ಎರಡು ಸ್ಪ್ರೈಟ್‌ಗಳು ಪರಸ್ಪರ `touch`{:class="block3sensing"} ಮಾಡಿದಾಗ ಹೇಗೆ ಪತ್ತೆ ಹಚ್ಚುವುದು
+- `and`{:class="block3operators"} ಮತ್ತು `not`{:class="block3operators"} ಬೂಲಿಯನ್‌ ಆಪರೇಟರ್‌ಗಳನ್ನು ಹೇಗೆ ಉಪಯೋಗಿಸುವುದು
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: ಶಿಕ್ಷಕರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 ---
 
-You can [download the completed project here](https://rpf.io/p/en/focus-on-the-prize-get){:target="_blank"}.
+ನೀವು [ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಇಲ್ಲಿ ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಳ್ಳಬಹುದು](https://rpf.io/p/en/focus-on-the-prize-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/focus-on-the-prize/print){:target="_blank"}.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು](https://projects.raspberrypi.org/en/projects/focus-on-the-prize/print){:target="_blank"} ಬಳಸಿರಿ.
 
 --- /collapse ---
