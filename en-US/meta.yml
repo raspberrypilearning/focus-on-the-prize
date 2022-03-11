@@ -5,10 +5,11 @@ description: Improve your concentration by following the gift box with the diamo
 version: 4
 listed: true
 copyedit: true
-last_tested: "2020-09-01"
+last_tested: '2020-09-01'
 steps:
   - 
     title: Introduction
+    completion: engaged
   - 
     title: Add a gift in a box
   - 
@@ -21,6 +22,7 @@ steps:
     title: Add more gifts
   - 
     title: Make a distraction
+    completion: internal
   - 
     title: Add more
   - 
