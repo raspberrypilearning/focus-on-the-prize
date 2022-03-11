@@ -1,22 +1,22 @@
-## Create an empty box
+## एक खाली बॉक्स बनाएं
 
-In this step, you will add another gift box, but this one will be empty! It will also move around in random directions.
+इस चरण में, आप एक और उपहार बॉक्स जोड़ेंगे, लेकिन यह खाली रहेगा! यह भी यादृच्छिक दिशाओं में घूमेगा।
 
 --- task ---
 
-Add a second **Gift** sprite. This one will be named **Gift2** automatically.
+दूसरा **gift** स्प्राइट जोड़ें। इसे स्वचालित रूप से **Gift2** नाम दिया जाएगा।
 
-![images showing two gift sprites side by side](images/two-gifts.png)
+![दो उपहार स्प्राइट साथ साथ दिखती हुई छवियां](images/two-gifts.png)
 
-Remember to increase its size to `150` (percent).
+इसका आकार बढ़ाकर `150` (प्रतिशत) करना याद रखें।
 
 --- /task ---
 
 --- task ---
 
-Set the **Gift2** sprite to start in the centre of the Stage.
+**Gift2** स्प्राइट को इस तरह सेट करें की यह Stage के केंद्र में शुरू हो।
 
-![image of gift2 sprite](images/gift2-sprite.png)
+![gift2 स्प्राइट की छवि](images/gift2-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -27,9 +27,9 @@ go to x: (0) y: (0)
 
 --- task ---
 
-Add blocks so that when this sprite `receives move`{:class="block3events"}, it also starts to `glide`{:class="block3motion"} in random directions.
+ब्लॉक जोड़ें ताकि जब यह स्प्राइट `receives move`{:class="block3events"} प्राप्त करे, तो यह यादृच्छिक दिशाओं में `glide`{:class="block3motion"} यादृच्छिक दिशाओं में करना शुरू कर दे।
 
-![image of gift2 sprite](images/gift2-sprite.png)
+![gift2 स्प्राइट की छवि](images/gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -41,23 +41,23 @@ glide (1) secs to [random position v]
 
 --- task ---
 
-Click on the green flag, and watch the two sprites move around the Stage.
+हरे झंडे पर क्लिक करें, और दोनो स्प्राइट्स को Stage के चारों ओर घूमते हुए देखें।
 
 --- no-print ---
 
-![animated gif of the two gift boxes moving randomly around the screen](images/random-motion-2.gif)
+![स्क्रीन के चारों ओर बेतरतीब ढंग से घूमते हुए दो उपहार बक्से का एनिमेटेड जिफ](images/random-motion-2.gif)
 
 --- /no-print ---
 
 --- /task ---
 
-The boxes should always move at the same speed as each other. At the moment, they are set to `glide 1 secs`{:class="block3motion"}. To change the speed of both boxes easily, you can use a `variable`{:class="block3variables"}.
+बक्सों को हमेशा एक दूसरे के समान गति से चलना चाहिए। फिलहाल, वे `glide 1 secs`{:class="block3motion"} पर सेट हैं। दोनों बक्सों की गति को आसानी से बदलने के लिए, आप `variable`{:class="block3variables"} का उपयोग कर सकते हैं।
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `speed`, and add it to the `glide 1 secs to random position`{:class="block3motion"} block. Add this block to both the **Gift** and **Gift2** sprites.
+एक नया `variable`{:class="block3variables"} बनाएं जिसे `speed`कहा जाता है, और इसे `glide 1 secs to random position`{:class="block3motion"} ब्लॉक में जोड़ें। इस ब्लॉक को **Gift** और **Gift2** स्प्राइट दोनों में जोड़ें।
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![गिफ्ट स्प्राइट की छवि](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -69,9 +69,9 @@ repeat (10)
 
 --- task ---
 
-In the code for the **Gift** sprite, you can add code to `set`{:class="block3variables"} the `speed`{:class="block3variables"} variable. Choose any value you like.
+**Gift** स्प्राइट के कोड में, आप `set`{:class="block3variables"} `speed`{:class="block3variables"} वेरिएबल में कोड जोड़ सकते हैं। अपनी पसंद का कोई भी मान चुनें।
 
-![image of the gift sprite](images/gift-sprite.png)
+![गिफ्ट स्प्राइट की छवि](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -90,7 +90,7 @@ broadcast [move v] and wait
 
 --- task ---
 
-Experiment with different values, until you find a speed you like.
+विभिन्न मानों के साथ प्रयोग करें, जब तक कि आपको अपनी पसंद की गति न मिल जाए।
 
 --- /task ---
 
