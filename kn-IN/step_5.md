@@ -1,12 +1,12 @@
-## Reveal the answers
+## ಉತ್ತರಗಳನ್ನು ಪ್ರಕಟಿಸಿ
 
-In this step, you will add code so that the player can click on a gift box to see if it has the crystal inside it.
+ಈ ಹಂತದಲ್ಲಿ, ಉಡುಗೊರೆಯ ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಹರಳು ಇದೆಯೇ ಎಂದು ನೋಡಲು ಆಟಗಾರ ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಬಹುದಾದ ಕೋಡ್‌ನ್ನು ನೀವು ಸೇರಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-In the code for the **Gift** sprite, add code so that `when this sprite clicked`{:class="block3events"}, it `says`{:class="block3looks"} `Yes!` and `switches costume to`{:class="block3looks"} the crystal.
+**Gift** ಸ್ಪ್ರೈಟ್‌ ಕೋಡ್‌ನಲ್ಲಿ, ಕೋಡ್‌ ಸೇರಿಸಿ ಇದರಿಂದ `when this sprite clicked`{:class="block3events"}, ಅದು `says`{:class="block3looks"} `Yes!` ಮತ್ತು ಹರಳಿಗೆ `switches costume to`{:class="block3looks"} ಸೇರಿಸಿ.
 
-![image of gift sprite](images/gift-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -18,9 +18,9 @@ switch costume to [Crystal-a v]
 
 --- task ---
 
-Click on the **Gift2** sprite and add blocks so that it `says`{:class="block3looks"} `No!`. Change the value of the `say`{:class="block3looks"} block to `1` second. Add a `hide`{:class="block3looks"} block so the sprite then disappears.
+**Gift2** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಇದರಿಂದ ಅದು `says`{:class="block3looks"} `No!`. `say`{:class="block3looks"} ಬ್ಲಾಕ್ ಮೌಲ್ಯವನ್ನು `1` ಸೆಕೆಂಡ್‌ಗೆ ಬದಲಾಯಿಸಿ. `hide`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ ಆಗ ಸ್ಪ್ರೈಟ್‌ ಕಾಣೆಯಾಗುತ್ತದೆ.
 
-![image of gift2 sprite](images/gift2-sprite.png)
+![ಉಡುಗೊರೆ2 ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift2-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -32,9 +32,9 @@ hide
 
 --- task ---
 
-As the **Gift2** sprite can now be hidden, you need to add a `show`{:class="block3looks"} block to make sure that it is visible when the program starts.
+**Gift2** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಈಗ ನಾವು ಮರೆಮಾಚಬಹುದಾದುರಿಂದ, ಪ್ರೋಗ್ರಾಮ್‌ ಪ್ರಾರಂಭವಾದಾಗ ಅದು ಕಾಣುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನೀವು `show`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಬೇಕು.
 
-![image of gift2 sprite](images/gift2-sprite.png)
+![ಉಡುಗೊರೆ2 ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift2-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -46,23 +46,23 @@ go to x: (0) y: (0)
 
 --- task ---
 
-Click on the green flag to run your code, and test what happens when you click on the boxes.
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ರನ್ ಮಾಡಲು ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನೀವು ಪೆಟ್ಟಿಗೆಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಪರೀಕ್ಷಿಸಿ.
 
 --- /task ---
 
-You may notice that you can click on the boxes while they are moving around. You can use a `variable`{:class="block3variables"} to stop players cheating like this.
+ಪೆಟ್ಟಿಗೆಗಳು ಚಲಿಸುತ್ತಿರುವಾಗ ನೀವು ಅವುಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಬಹುದು ಎಂಬುವುದನ್ನು ನೀವು ಗಮನಿಸಬಹುದು. ಆಟಗಾರರು ಈ ರೀತಿ ಮೋಸ ಮಾಡುವುದನ್ನು ನಿಲ್ಲಿಸಲು ನೀವು `variable`{:class="block3variables"} ಉಪಯೋಗಿಸಬಹುದು.
 
 --- no-print ---
 
-![animated gif showing the gifts being clicked on before they have finished moving](images/cheat.gif)_
+![ಉಡುಗೊರೆಗಳು ಚಲಿಸುವುದನ್ನು ನಿಲ್ಲಿಸುವ ಮೊದಲೇ ಅವುಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡುವುದನ್ನು ತೋರಿಸುವ ಅನಿಮೇಟೆಡ್‌ ಜಿಐಎಫ್](images/cheat.gif)_
 
 --- /no-print ---
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `finished`. Add blocks to `set`{:class="block3variables"} the `finished`{:class="block3variables"} variable to `false` when the gifts start moving, and then to `true` when the gifts stop moving.
+`finished` ಎನ್ನುವ ಹೊಸ `variable`{:class="block3variables"} ರಚಿಸಿ. `finished`{:class="block3variables"} ಉಡುಗೊರೆಯು ಚಲಿಸಲು ಪ್ರಾರಂಭಿಸಿದಾಗ ವೇರಿಯೇಬಲ್‌ `false`ಗೆ ಮತ್ತು ನಂತರ ಉಡುಗೊರೆಯು ಚಲಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಿದಾಗ `true`ಗೆ `set`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
-![image of the gift sprite](images/gift-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್ ಚಿತ್ರ](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -83,9 +83,9 @@ broadcast [move v] and wait
 
 --- task ---
 
-Now, you can use an `if … then`{:class="block3control"} block to check if `finished`{:class="block3variables"} is true or false. Add an `Operators`{:class="block3operators"} block so that the clicking only has any effect if `finished`{:class="block3variables"} `=`{:class="block3operators"} `true`.
+ಈಗ, ನೀವು `finished`{:class="block3variables"} ಸರಿ ಅಥವಾ ತಪ್ಪು ಎಂದು ಪರಿಶೀಲಿಸಲು `if … then`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು ಉಪಯೋಗಿಸಬಹುದು. `Operators`{:class="block3operators"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ, ಅದರಿಂದ `finished`{:class="block3variables"} `=`{:class="block3operators"} `true` ಆದರೆ ಮಾತ್ರ ಕ್ಲಿಕ್ ಮಾಡುವುದು ಯಾವುದಾದರು ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.
 
-![image of gift sprite](images/gift-sprite.png)
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -98,9 +98,9 @@ switch costume to [Crystal-a]
 
 --- task ---
 
-Add the same `if`{:class="block3control"} condition to the **Gift2** sprite.
+ಅದೇ `if`{:class="block3control"} ಷರತ್ತನ್ನು **Gift2** ಸ್ಪ್ರೈಟ್‌ಗೆ ಸೇರಿಸಿ.
 
-![image of gift2 sprite](images/gift2-sprite.png)
+![ಉಡುಗೊರೆ2 ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/gift2-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -113,7 +113,7 @@ hide
 
 --- task ---
 
-Test your program, and you should see that you can only click on the sprites when they have finished moving around.
+ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ನ್ನು ಪರೀಕ್ಷೆ ಮಾಡಿ, ಮತ್ತು ಸ್ಪ್ರೈಟ್‌ಗಳು ಸುತ್ತಲೂ ಚಲಿಸುವುದನ್ನು ಮುಗಿಸಿದಾಗ ಮಾತ್ರ ನೀವು ಅವುಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಬಹುದು ಎನ್ನುವುದನ್ನು ನೀವು ನೋಡಬೇಕು.
 
 --- /task ---
 
