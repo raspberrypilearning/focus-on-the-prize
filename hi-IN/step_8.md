@@ -1,8 +1,8 @@
-## Add more
+## और जोड़ें
 
-Can you add more distractions to your game to make it even harder to keep your eye on the correct gift box?
+क्या आप सही गिफ्ट बॉक्स पर अपनी नज़र बनाए रखना और भी कठिन बनाने के लिए अपने खेल में और अधिक विकर्षण जोड़ सकते हैं?
 
-Think about some of the things that you have learned in other Scratch projects that might make the game even harder, such as changing costumes, adding graphic effects, changing sizes, and moving and turning.
+उन कुछ चीजों के बारे में सोचें जो आपने अन्य Scratch प्रोजेक्ट्स में सीखी हैं जो खेल को और भी कठिन बना सकती हैं, जैसे कि पोशाक बदलना, ग्राफिक प्रभाव जोड़ना, आकार बदलना और हिलना और मुड़ना।
 
 --- no-print ---
 
