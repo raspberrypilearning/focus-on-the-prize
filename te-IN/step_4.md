@@ -1,22 +1,22 @@
-## Create an empty box
+## ఖాళీ బాక్సుని సృష్టించండి
 
-In this step, you will add another gift box, but this one will be empty! It will also move around in random directions.
+ఈ దశలో, మీరు మరొక గిఫ్ట్ బాక్సును జోడిస్తారు, కానీ ఇది ఖాళీగా ఉంటుంది! ఇది యాదృచ్ఛిక దిశలలో కూడా కదులుతుంది.
 
 --- task ---
 
-Add a second **Gift** sprite. This one will be named **Gift2** automatically.
+రెండవ **gift** spriteను జోడించండి. దీనికి స్వయంచాలకంగా **gift 2** అని పేరు పెట్టబడుతుంది.
 
-![images showing two gift sprites side by side](images/two-gifts.png)
+![రెండు gift sprite లను పక్కపక్కనే చూపుతున్న చిత్రాలు](images/two-gifts.png)
 
-Remember to increase its size to `150` (percent).
+దీని పరిమాణాన్ని `150` (శాతం) కి పెంచాలని గుర్తు పెట్టుకోండి.
 
 --- /task ---
 
 --- task ---
 
-Set the **Gift2** sprite to start in the centre of the Stage.
+Stage మధ్యలో ప్రారంభించేలా **gift 2** spriteని సెట్ చేయండి.
 
-![image of gift2 sprite](images/gift2-sprite.png)
+![gift2 sprite యొక్క చిత్రం](images/gift2-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -27,9 +27,9 @@ go to x: (0) y: (0)
 
 --- task ---
 
-Add blocks so that when this sprite `receives move`{:class="block3events"}, it also starts to `glide`{:class="block3motion"} in random directions.
+బ్లాక్‌లను జోడించండి, తద్వారా ఈ sprite `receives move `{:class="block3events"}, అది విభిన్న దిశలలో, `glide`{:class="block3motion"} అవడం ప్రారంభమవుతుంది.
 
-![image of gift2 sprite](images/gift2-sprite.png)
+![gift2 sprite యొక్క చిత్రం](images/gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -41,23 +41,23 @@ glide (1) secs to [random position v]
 
 --- task ---
 
-Click on the green flag, and watch the two sprites move around the Stage.
+ఆకుపచ్చ జెండాపై క్లిక్ చేసి, రెండు sprite లు Stage చుట్టూ కదలడాన్ని చూడండి.
 
 --- no-print ---
 
-![animated gif of the two gift boxes moving randomly around the screen](images/random-motion-2.gif)
+![రెండు గిఫ్ట్ బాక్స్‌ల యానిమేటెడ్ gif స్క్రీన్ చుట్టూ యాదృచ్ఛికంగా కదులుతుంది](images/random-motion-2.gif)
 
 --- /no-print ---
 
 --- /task ---
 
-The boxes should always move at the same speed as each other. At the moment, they are set to `glide 1 secs`{:class="block3motion"}. To change the speed of both boxes easily, you can use a `variable`{:class="block3variables"}.
+బాక్సులు ఎల్లప్పుడూ ఒకదానికొకటి అదే వేగంతో కదలాలి. ప్రస్తుతానికి, అవి `glide 1 secs`{:class="block3motion"} కి సెట్ చేయబడ్డాయి. రెండు బాక్సుల వేగాన్ని సులభంగా మార్చడానికి, మీరు ` variable `{:class="block3variables"}ని ఉపయోగించవచ్చు.
 
 --- task ---
 
-Create a new `variable`{:class="block3variables"} called `speed`, and add it to the `glide 1 secs to random position`{:class="block3motion"} block. Add this block to both the **Gift** and **Gift2** sprites.
+`speed`అని పిలువబడే కొత్త `వేరియబుల్`{:class="block3variables"}ని సృష్టించండి మరియు దానిని `glide 1 secs to random position`{:class="block3motion"} బ్లాక్‌కి జోడించండి. ఈ బ్లాక్‌ని **Gift** మరియు **Gift2** sprite లకు జోడించండి.
 
-![image of gift sprite](images/gift-gift2-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-gift2-sprite.png)
 
 ```blocks3
 when I receive [move v]
@@ -69,9 +69,9 @@ repeat (10)
 
 --- task ---
 
-In the code for the **Gift** sprite, you can add code to `set`{:class="block3variables"} the `speed`{:class="block3variables"} variable. Choose any value you like.
+**Gift** sprite చెందిన కోడ్ లో, వేరియబుల్ యొక్క `speed`{:class="block3variables"} `set`{:class="block3variables"} చేయడానికి కోడ్‌ని జోడించవచ్చు. మీకు నచ్చిన ఏదైనా విలువను ఎంచుకోండి.
 
-![image of the gift sprite](images/gift-sprite.png)
+![gift sprite యొక్క చిత్రం](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -90,7 +90,7 @@ broadcast [move v] and wait
 
 --- task ---
 
-Experiment with different values, until you find a speed you like.
+మీకు నచ్చిన వేగాన్ని కనుగొనే వరకు విభిన్న విలువలతో ప్రయోగం చేయండి.
 
 --- /task ---
 
