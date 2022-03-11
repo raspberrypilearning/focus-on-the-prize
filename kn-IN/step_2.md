@@ -1,82 +1,82 @@
-## Add a gift in a box
+## ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಉಡುಗೊರೆಯನ್ನು ಸೇರಿಸಿ
 
-In this step, you will add a gift box that will briefly show what is hidden inside it.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ಅದರೊಳಗೆ ಏನನ್ನು ಬಚ್ಚಿಡಲಾಗಿದೆ ಎಂದು ಸಂಕ್ಷಿಪ್ತವಾಗಿ ತೋರಿಸುವ ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆಯನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-Open a new Scratch project.
+ಹೊಸ Scratch ಪ್ರಾಜೆಕ್ಟ ತೆರೆಯಿರಿ.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**ಆನ್‌ಲೈನ್:**ಹೊಸ Scratch ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಇಲ್ಲಿ ತೆರೆಯಿರಿ [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** open a new project in the Scratch offline editor. If you need to, you can [download and install Scratch here](http://rpf.io/scratchoff){:target="_blank"}.
+**ಆಫ್‌ಲೈನ್:** Scratch ಆಫ್‌ಲೈನ್‌ ಎಡಿಟರ್‌ನಲ್ಲಿ ಹೊಸ ಪ್ರಾಜೆಕ್ಟ್‌ ತೆರೆಯಿರಿ. ನಿಮಗೆ ಬೇಕಾದರೆ, ನೀವು [ಇಲ್ಲಿ Scratch ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಂಡು ಇನ್‌ಸ್ಟಾಲ್‌ ಮಾಡಬಹುದು](http://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Delete the **Scratch cat** sprite. To do this, click on the **Rubbish bin** icon in the corner of the image in the Sprite list.
+**Scratch cat** ಸ್ಪ್ರೈಟ್‌ನ್ನು ತೆಗೆದುಹಾಕಿ. ಇದನ್ನು ಮಾಡಲು, Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿರುವ ಚಿತ್ರದ ಮೂಲೆಯಲ್ಲಿರುವ **Rubbish bin** ಐಕಾನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-![image showing Scratch cat icon, with trashcan in the top right hand corner](images/delete-cat.png)
-
---- /task ---
-
---- task ---
-
-Click on **Choose a Sprite** to search for a new sprite to add to your game.
-
-![image showing the choose sprite icon with expanded options](images/choose-sprite.png)
+![ಮೇಲಿನ ಬಲ ಮೂಲೆಯಲ್ಲಿ ಕಸದಬುಟ್ಟಿಯೊಂದಿಗೆ Scratch ಕ್ಯಾಟ್‌ ಐಕಾನ್‌ ತೋರಿಸುವ ಚಿತ್ರ](images/delete-cat.png)
 
 --- /task ---
 
 --- task ---
 
-Search for the **Gift** sprite, then add it to your game.
+ನಿಮ್ಮ ಆಟಕ್ಕೆ ಸೇರಿಸಲು ಹೊಸ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಹುಡುಕಲು **Choose a Sprite** ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-![image showing the search bar with "gift" typed in and the gift sprite below it](images/add-gift.png)
-
---- /task ---
-
---- task ---
-
-The sprite is a little small at the moment. To increase the sprite's size, you can either use the `set size to`{:class="block3looks"} block, as you may have done in other projects, or you can change the sprite's **properties**.
-
-Set the sprite's size to `150` (percent).
-
-![image showing properties for the sprite with the size set to 150 percent](images/set-size.png)
+![ವಿಸ್ತರಿತ ಆಯ್ಕೆಗಳೊಂದಿಗೆ choose sprite ಐಕಾನ್‌ನ್ನು ತೋರಿಸುವ ಚಿತ್ರ](images/choose-sprite.png)
 
 --- /task ---
 
 --- task ---
 
-Go to the **Costumes** tab to look at the costumes for the **Gift** sprite. You will see two costumes called **gift-a** and **gift-b**.
+**Gift** ಸ್ಪ್ರೈಟ್‌ ಹುಡುಕಿ, ನಂತರ ನಿಮ್ಮ ಆಟಕ್ಕೆ ಅದನ್ನು ಸೇರಿಸಿ.
 
-![image showing the costumes tab for the gift sprite, along with the two default costumes](images/gift-costumes.png)
-
-Click on the **Choose a Costume** icon to add a new costume to the sprite.
-
-![image showing the expanded choose a costume icon](images/choose-costume.png)
+!["gift" ಟೈಪ್‌ ಆಗಿರುವ ಮತ್ತು ಅದರ ಕೆಳಗೆ ಉಡುಗೊರೆಯ ಸ್ಪ್ರೈಟ್‌ ಇರುವ ಸರ್ಚ್‌ ಬಾರ್‌ ತೋರಿಸುವ ಚಿತ್ರ](images/add-gift.png)
 
 --- /task ---
 
 --- task ---
 
-Choose the gift that you would like to put inside the gift box. In this example, we will use the **Crystal-a** costume.
+ಸ್ಪ್ರೈಟ್‌ ಈ ಕ್ಷಣದಲ್ಲಿ ಸ್ವಲ್ಪ ಚಿಕ್ಕದಾಗಿದೆ. ಸ್ಪ್ರೈಟ್‌ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸಲು, ನೀವು ಬೇರೆ ಪ್ರಾಜೆಕ್ಟ್‌ಗಳಲ್ಲಿ ಮಾಡಿದಂತೆ `set size to`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಉಪಯೋಗಿಸಬಹುದು, ಅಥವಾ ನೀವು ಸ್ಪ್ರೈಟ್‌ನ **properties** ಬದಲಾಯಿಸಬಹುದು.
 
-![image showing the search for a crystal costume, with Crystal-a and Crystal-b shown](images/choose-crystal-costume.png)
+ಸ್ಪ್ರೈಟ್‌ ಗಾತ್ರವನ್ನು (ಶೇಕಡಾ) `150` ಗೆ ಹೊಂದಿಸಿ.
+
+![ಗಾತ್ರವನ್ನು ಶೇಕಡಾ 150ಕ್ಕೆ ಹೊಂದಿಸಿರುವುದರೊಂದಿಗೆ ಸ್ಪ್ರೈಟ್‌ನ ಗುಣಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುವ ಚಿತ್ರ](images/set-size.png)
 
 --- /task ---
 
 --- task ---
 
-Switch back to the **Code** tab so that you can begin to work on the program.
+**Gift** ಸ್ಪ್ರೈಟ್‌ಗೆ ಉಡುಪುಗಳನ್ನು ನೋಡಲು **Costumes** ಟ್ಯಾಬ್‌ಗೆ ಹೋಗಿ. ನೀವು **gift-a** ಮತ್ತು **gift-b** ಎನ್ನುವ ಎರಡು ಉಡುಪುಗಳನ್ನು ನೋಡುವಿರಿ.
 
-![image showing code tab selected](images/code-tab.png)
+![ಎರಡು ಪೂರ್ವನಿಯೋಜಿತ ಉಡುಪುಗಳೊಂದಿಗೆ, ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್‌ಗೆ ಕಾಸ್ಟೂಮ್‌ ಟ್ಯಾಬ್‌ ತೋರಿಸುತ್ತಿರುವ ಚಿತ್ರ](images/gift-costumes.png)
 
-Add some blocks to make the starting costume for the **Gift** sprite `switch`{:class="block3looks"} to `Crystal-a`{:class="block3looks"} and then back to `gift-a`{:class="block3looks"} again. Use `wait`{:class="block3control"} blocks in between the costume changes.
+ಸ್ಪ್ರೈಟ್‌ಗೆ ಹೊಸ ಉಡುಪನ್ನು ಸೇರಿಸಲು **Choose a Costume** ಐಕಾನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-The `wait`{:class="block3control"} blocks give the player a chance to see the costume changes.
+![ವಿಸ್ತರಿತ choose a costume ಐಕಾನ್‌ ತೋರಿಸುತ್ತಿರುವ ಚಿತ್ರ](images/choose-costume.png)
 
-![image of the gift sprite](images/gift-sprite.png)
+--- /task ---
+
+--- task ---
+
+ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ನೀವು ಇರಿಸಲು ಬಯಸುವ ಉಡುಗೊರೆಯನ್ನು ಆರಿಸಿ. ಈ ಉದಾಹರಣೆಯಲ್ಲಿ, ನಾವು **Crystal-a** ಉಡುಪನ್ನು ಉಪಯೋಗಿಸುತ್ತೇವೆ.
+
+![crystal-a ಮತ್ತು Crystal-b ತೋರಿಸಿರುವ ಕ್ರಿಸ್ಟಲ್‌ ಉಡುಪು ಹುಡುಕುತ್ತಿರುವುದನ್ನು ತೋರಿಸುವ ಚಿತ್ರ](images/choose-crystal-costume.png)
+
+--- /task ---
+
+--- task ---
+
+**Code** ಟ್ಯಾಬ್‌ಗೆ ಹಿಂದಿರುಗಿ, ನೀವು ಪ್ರೋಗ್ರಾಮ್‌ ಮೇಲೆ ಕೆಲಸ ಮಾಡಲು ಪ್ರಾರಂಭಿಸಬಹುದು.
+
+![ಆಯ್ಕೆಮಾಡಿದ ಕೋಡ್‌ ಟ್ಯಾಬ್‌ ತೋರಿಸುವ ಚಿತ್ರ](images/code-tab.png)
+
+**Gift** ಸ್ಪ್ರೈಟ್‌ಗೆ ಪ್ರಾರಂಭಿಕ ಉಡುಪನ್ನು ಮಾಡಲು `switch`{:class="block3looks"} ರಿಂದ `Crystal-a`{:class="block3looks"} ವರೆಗೆ ಕೆಲವು ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಮತ್ತು ನಂತರ ಪುನಃ `gift-a`{:class="block3looks"} ಮರಳಿ ಬನ್ನಿ. ಉಡುಪುಗಳ ಬದಲಾವಣೆಗಳ ನಡುವೆ `wait`{:class="block3control"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿ.
+
+`wait`{:class="block3control"} ಬ್ಲಾಕ್‌ಗಳು ಆಟಗಾರನಿಗೆ ಉಡುಪುಗಳ ಬದಲಾವಣೆಗಳನ್ನು ನೋಡುವ ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತವೆ.
+
+![ಉಡುಗೊರೆ ಸ್ಪ್ರೈಟ್ ಚಿತ್ರ](images/gift-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -91,7 +91,7 @@ switch costume to [gift-a v]
 
 --- task ---
 
-Click on the green flag, and make sure that your gift box changes costumes.
+ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆ ಉಡುಪುಗಳನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 --- /task ---
 
