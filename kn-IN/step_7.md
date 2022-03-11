@@ -1,22 +1,22 @@
-## Make a distraction
+## ಗಮನ ಭಂಗ ಮಾಡಿ
 
-To finish the game, you can add a distraction, to try to stop the player keeping their eyes on the gift box.
+ಆಟವನ್ನು ಮುಗಿಸಲು, ಆಟಗಾರರು ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆಯ ಮೇಲೆ ಕಣ್ಣಿಡುವುದನ್ನು ನಿಲ್ಲಿಸಲು, ನೀವು ಗಮನ ಭಂಗ ಮಾಡುವುದನ್ನು ಸೇರಿಸಬಹುದು.
 
 --- task ---
 
-Add a new sprite to your game. You can choose any sprite you like, but in this example, we will use the **Duck** sprite.
+ನಿಮ್ಮ ಆಟಕ್ಕೆ ಹೊಸ ಸ್ಪ್ರೈಟ್‌ ಸೇರಿಸಿ. ನೀವು ನಿಮಗಿಷ್ಟವಾದ ಯಾವುದೇ ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಬಹುದು, ಆದರೆ ಈ ಉದಾಹರಣೆಯಲ್ಲಿ, ನಾವು **Duck** ಸ್ಪ್ರೈಟ್‌ ಉಪಯೋಗಿಸುತ್ತೇವೆ.
 
-![image of duck sprite](images/duck-sprite.png)
+![ಬಾತುಕೋಳಿ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/duck-sprite.png)
 
 --- /task ---
 
-When the game begins, the duck should be hidden, and it should only start to move after the boxes have started moving. It is also useful to bring the duck to the front layer, so that it moves over the top of the boxes.
+ಆಟವು ಪ್ರಾರಂಭವಾದಾಗ, ಬಾತುಕೋಳಿಯು ಮರೆಯಾಗಿರಬೇಕು, ಮತ್ತು ಅದು ಪೆಟ್ಟಿಗೆಗಳು ಚಲಿಸಲು ಪ್ರಾರಂಭಿಸಿದ ನಂತರವೇ ಅದು ಚಲಿಸಲು ಪ್ರಾರಂಭಿಸಬೇಕು. ಬಾತುಕೋಳಿ ಪೆಟ್ಟಿಗೆಗಳ ಮೇಲ್ಗಡೆ ಚಲಿಸುವಂತೆ ಮಾಡಲು ಅದನ್ನು ಮುಂದಿನ ಪದರಕ್ಕೆ ತರುವುದೂ ಸಹ ಉಪಯುಕ್ತವಾಗಿರುತ್ತದೆ.
 
 --- task ---
 
-Add the following blocks to the **Duck** sprite.
+**Duck** ಸ್ಪ್ರೈಟ್‌ಗೆ ಈ ಕೆಳಗಿನ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
-![image of duck sprite](images/duck-sprite.png)
+![ಬಾತುಕೋಳಿ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/duck-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -29,9 +29,9 @@ wait (4) seconds
 
 --- task ---
 
-Next, the **Duck** sprite should `wait`{:class="block3control"}  a `random`{:class="block3operators"} number of seconds, then `glide`{:class="block3motion"} across the Stage and `hide`{:class="block3looks"}. This can keep happening until the game has finished.
+ನಂತರ,  **Duck** ಸ್ಪ್ರೈಟ್ `wait`{:class="block3control"}   `random`{:class="block3operators"} ಸೆಕೆಂಡುಗಳ ಕಾಲ, ನಂತರ Stage ಉದ್ದಕ್ಕೆ`glide`{:class="block3motion"}  ಮತ್ತು `hide`{:class="block3looks"} ಆಗಬೇಕು. ಆಟ ಮುಗಿಯುವವರೆಗೂ ಇದು ನಡೆಯುತ್ತಿರಬಹುದು.
 
-![image of duck sprite](images/duck-sprite.png)
+![ಬಾತುಕೋಳಿ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/duck-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -49,7 +49,7 @@ hide
 
 --- task ---
 
-Test your game and see if you can keep track of the gift box with a distracting duck flying across the Stage.
+ನಿಮ್ಮ ಆಟವನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು Stage ಉದ್ದಕ್ಕೂ ಗಮನಭಂಗ ಮಾಡುವ ಬಾತುಕೋಳಿ ಹಾರುತ್ತಿರುವಾಗ, ನೀವು ಉಡುಗೊರೆ ಪೆಟ್ಟಿಗೆಯ ಮೇಲೆ ಗಮನವಿಡಲು ಸಾಧ್ಯವೇ ಎಂದು ನೋಡಿ.
 
 --- /task ---
 
