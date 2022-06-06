@@ -9,14 +9,16 @@ copyedit: true
 last_tested: '2020-09-01'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Add a gift in a box
 - title: Move the gift box
+  completion:
+  - engaged
 - title: Create an empty box
 - title: Reveal the answers
 - title: Add more gifts
 - title: Make a distraction
-  completion: internal
+  completion:
+  - internal
 - title: Add more
 - title: Share
 - title: What next?
