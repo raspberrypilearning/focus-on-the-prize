@@ -21,6 +21,5 @@ steps:
   - internal
 - title: Add more
 - title: Share
-- title: What next?
   completion:
   - external
